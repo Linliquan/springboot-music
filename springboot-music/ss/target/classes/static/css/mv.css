@@ -1,0 +1,374 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	text-decoration: none;
+}
+
+.mvmv .mvmenu .fenliegeshi :hover {
+	background-color: aquamarine;
+}
+
+
+ul{
+	list-style: none;
+}
+.clearfix{content: "";display: block;clear: both;}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     清除浏览器自带样式以及浮动
+
+
+
+            							导航栏上方
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+body{
+	font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
+	position: relative;
+	overflow: scroll;
+	font-family: "poppin,Tahoma,Arial";
+}
+/*输入框*/
+.search1{
+	width: 1226px;
+	height: 75px;
+	margin: auto;
+}
+.search1 .bs-example{
+	width: 300px;
+}
+.search1 .navmargin{
+	float: right;
+	width: 1071px;
+	height: 78px;
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+.search1 .navmargin .form-control{
+	width: 298px;
+    height: 34px;
+    border-right: none;
+}
+.search1 .navmargin .shurukuang{
+	display: inline-block;
+}
+.search1 .navmargin .dengluzhuce{
+	float: right;
+}
+.search1 .navmargin .dengluzhuce .denglu{
+	margin:20px 5px;
+	padding: 5px 10px;
+}
+
+.search1 .navmargin .dengluzhuce a{
+	color: #777;
+}
+.search1 .denglu{
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+	color: #fff;
+	border: none;
+}
+.search1 .denglu:hover{
+	background-image: linear-gradient(-20deg, #21d4fd 0%, #b721ff 100%);
+
+}
+.search1 .mymusic{
+	padding:20px 20px;
+}
+.search1 a:hover{
+	font-size: 24px;
+	transform: scale(1.2);
+}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         下方开启导航栏界面编写
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.daohanglan{
+	height: 55px;
+	margin-top: 5px;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+
+}
+.daohanglan .big3{
+	width: 1226px;
+	margin: auto;
+}
+.daohanglan .big3 ul li{
+	float: left;
+}
+.daohanglan .big3 ul li .lanbeijin{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul li .erjicaidan2{
+	color: #fff;
+	font-size: 16px;
+	line-height: 55px;
+	padding: 19px 30px;
+}
+.daohanglan .big3 ul li a:hover{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+.daohanglan .big3 ul li ul li{
+	color: #000;
+}
+.daohanglan .big3 ul .dropdown{
+	width: 170px;
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan{
+	padding: 10px 50px;
+	border-top: 1px solid #999;
+	color: #fff;
+}
+.daohanglan .big3 ul .gudingbeij{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan:hover{
+	background-color: #252b34;
+}
+.erjicaidan {
+	background-color: rgb(40,50,59);
+}
+.dropdown-menu{
+	padding: 0;
+	margin: 0;
+	box-shadow:0 0 0 0;
+	border: none;
+	background-color: rgba(0,0,0,0);
+}
+.daohanglan .big3 ul .youfudong{
+	float: right;
+}
+.daohanglan .big3 ul .youfudong span{
+	cursor: pointer;
+	color: #fff;
+	padding: 19.5px 30px;
+}
+.daohanglan .big3 ul .youfudong span:hover{
+	color:#7ad6d1;
+}
+.modal-footer {
+    padding: 15px 40px 0 0;
+}
+#myCarousel .carousel-indicators li{
+	width: 50px;
+	height: 5px;
+	border-radius: 1px;
+}
+.carousel-indicators .active{
+	margin: 1px 0;
+}
+.modal  .modal-header{
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.modal  .modal-body{
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         我的音乐
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         页脚
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.footer {
+	padding-bottom: 50px;
+	background-color: #DCD9D4; 
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+ background-blend-mode: soft-light,screen;
+	box-shadow:  -3px -3px 4px rgba(0,0,0,0.18);
+}
+
+.footer .links {
+    position: relative;
+    zoom: 1;
+    border-bottom: 1px solid #3d424a;
+    padding: 15px 0;
+    font-size: 12px;
+    color: #b000;
+	text-align: center;
+}
+
+a {
+    text-decoration: none;
+	    font-size: 100%;
+	    outline: none;
+}
+.footer .links a {
+    color: #000;
+    padding: 10px;
+}
+.footer .links a:hover {
+	color: blue;
+}
+.footer .copyright {
+    width: 1000px;
+    margin: 40px auto 0;
+}
+.footer .copyright p {
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+.content {
+	width: 1000px;
+	height: 922px;
+	margin: 0 auto;
+}
+
+
+
+.paihangpang {
+	height: 312px;
+	color: white;
+	background-color: currentColor;
+}
+
+.toptop {
+	margin-top: 15px;
+}
+
+.mvpaihang {
+	background-color: currentColor;
+}
+
+.mvtr {
+	background-color: currentColor;
+}
+
+.hanggao {
+	line-height: 6.5px;
+}
+
+
+
+
+
+.boxbox {
+	height: 312.08px;
+}
+
+
+.fenliegeshi :active {
+	background-color: aquamarine;
+}
+.fenliegeshi :hover {
+	background-color: aquamarine;
+	color: white;
+}
+
+
+
+.mvmv {
+	width: 1000px;
+	height: 558px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+
+.mvmv_left {
+	display: block;
+	width: 210px;
+	height: 154px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.fenleititle {
+	width: 1000px;
+	height: 30px;
+	text-align: center;
+}
+
+.fenlei_left {
+	display: block;
+	width: 210px;
+	height: 30px;
+	background-color: #cfcfcf;
+	color: white;
+	font-size: 15px;
+	float: left;
+	padding-top: 5px;
+}
+
+.fenlei_right {
+	display: block;
+	width: 780px;
+	height: 30px;
+	margin-left: 10px;
+	background-color: #cfcfcf;
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding-top: 5px;
+}
+
+.mvmv_left_fenlei {
+	display: block;
+	width: 210px;
+	height: 36px;
+	font-size: 15px;
+	line-height: 36px;
+}
+.mvmv_left_fenlei :hover {
+	display: block;
+	background-color: aquamarine;
+	color: aliceblue;
+}
+
+.kanmv {
+	width: 780px;
+	height: 490px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.mmvv {
+	width: 140px;
+	height: 110px;
+	float: left;
+	text-align: center;
+	margin-right: 16px;
+}
+
+.mvpicture {
+	width: 140px;
+	height: 78px;
+	vertical-align: middle;
+}
+
+
+.mvname {
+	font-size: 15px;
+	line-height: 32px;
+}
+
+.fenye {
+	width: 780px;
+	line-height: 32px;
+	text-align: center;
+}

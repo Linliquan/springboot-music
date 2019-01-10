@@ -1,0 +1,459 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.gedanfont p {
+	color: darkgray;
+}
+
+.gedanbtn .sss span {
+	padding: 7px 20px 7px 20px;
+	background: #169af3;
+    color: #fff;
+	position: relative;
+    float: left;
+    display: inline;
+    border: 1px solid #dbdbdb;
+    line-height: 100%;
+    overflow: hidden;
+    zoom: 1;
+    cursor: pointer;
+    border-radius: 2px;
+	margin-right: 25px;
+}
+.you h3 span{
+	float: left;
+    width: 219px;
+    padding: 0 0 0 15px;
+    margin: 0 1px 0 0;
+    background: #deb200;
+    color: #FFF;
+    font-weight: normal;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clearfix{content: "";display: block;clear: both;}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     清除浏览器自带样式以及浮动
+
+
+
+            							导航栏上方
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+body{
+	font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
+
+	position: relative;
+	overflow: scroll;
+	font-family: "poppin,Tahoma,Arial";
+}
+/*输入框*/
+.search1{
+	width: 1226px;
+	height: 75px;
+	margin: auto;
+}
+.search1 .bs-example{
+	width: 300px;
+}
+.search1 .navmargin{
+	float: right;
+	width: 1071px;
+	height: 78px;
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+.search1 .navmargin .form-control{
+	width: 298px;
+    height: 34px;
+    border-right: none;
+}
+.search1 .navmargin .shurukuang{
+	display: inline-block;
+}
+.search1 .navmargin .dengluzhuce{
+	float: right;
+}
+.search1 .navmargin .dengluzhuce .denglu{
+	margin:20px 5px;
+	padding: 5px 10px;
+	background-repeat: 
+}
+
+.search1 .navmargin .dengluzhuce a{
+	color: #777;
+}
+.search1 .denglu{
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+	color: #fff;
+	border: none;
+}
+.search1 .denglu:hover{
+	background-image: linear-gradient(-20deg, #21d4fd 0%, #b721ff 100%);
+
+}
+.search1 .mymusic{
+	padding:20px 20px;
+}
+.search1 a:hover{
+	font-size: 24px;
+	transform: scale(1.2);
+}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         下方开启导航栏界面编写
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.daohanglan{
+	height: 55px;
+	margin-top: 5px;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+
+}
+.daohanglan .big3{
+	width: 1226px;
+	margin: auto;
+}
+.daohanglan .big3 ul li{
+	float: left;
+}
+.daohanglan .big3 ul li .lanbeijin{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul li .erjicaidan2{
+	color: #fff;
+	font-size: 16px;
+	line-height: 55px;
+	padding: 19px 30px;
+}
+.daohanglan .big3 ul li a:hover{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+
+
+.content .content_left .menu a {
+	display: block;
+}
+.daohanglan .big3 ul li ul li{
+	color: #000;
+}
+.daohanglan .big3 ul .dropdown{
+	width: 170px;
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan{
+	padding: 10px 50px;
+	border-top: 1px solid #999;
+	color: #fff;
+}
+.daohanglan .big3 ul .gudingbeij{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan:hover{
+	background-color: #252b34;
+}
+.erjicaidan {
+	background-color: rgb(40,50,59);
+}
+.dropdown-menu{
+	padding: 0;
+	margin: 0;
+	box-shadow:0 0 0 0;
+	border: none;
+	background-color: rgba(0,0,0,0);
+}
+.daohanglan .big3 ul .youfudong{
+	float: right;
+}
+.daohanglan .big3 ul .youfudong span{
+	cursor: pointer;
+	color: #fff;
+	padding: 19.5px 30px;
+}
+.daohanglan .big3 ul .youfudong span:hover{
+	color:#7ad6d1;
+}
+.modal-footer {
+    padding: 15px 40px 0 0;
+}
+#myCarousel .carousel-indicators li{
+	width: 50px;
+	height: 5px;
+	border-radius: 1px;
+}
+.carousel-indicators .active{
+	margin: 1px 0;
+}
+.modal  .modal-header{
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.modal  .modal-body{
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+
+/*歌单*/
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         页脚
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.footer {
+	padding-bottom: 50px;
+	background-color: #DCD9D4; 
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+ background-blend-mode: soft-light,screen;
+	box-shadow:  -3px -3px 4px rgba(0,0,0,0.18);
+}
+
+.footer .links {
+    position: relative;
+    zoom: 1;
+    border-bottom: 1px solid #3d424a;
+    padding: 15px 0;
+    font-size: 12px;
+    color: #b000;
+	text-align: center;
+}
+
+a {
+    text-decoration: none;
+	    font-size: 100%;
+	    outline: none;
+}
+.footer .links a {
+    color: #000;
+    padding: 10px;
+}
+.footer .links a:hover {
+	color: blue;
+}
+.footer .copyright {
+    width: 1000px;
+    margin: 40px auto 0;
+}
+.footer .copyright p {
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+
+
+
+
+.tou {
+	width: 663px;
+	height: 325px;
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+
+
+.frame {
+	width: 1000px;
+	height: 922px;
+	margin: 0 auto;
+}
+
+.you {
+	width: 317px;
+    height: 325px;
+    float: right;
+    margin: 20px 0 0 0;
+	padding: 0;
+	color: #000;
+}
+
+.you ul li a {
+	height: 29px;
+    display: block;
+    line-height: 32px;
+    cursor: pointer;
+    padding-left: 3px;
+}
+
+.ClearBoth {
+	clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 1px;
+}
+
+.leftCon {
+	width: 210px;
+    float: left;
+    position: relative;
+    z-index: 1;
+	margin: 1;
+    padding: 0;
+}
+
+.title {
+	height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #cfcfcf;
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.tuijian {
+	position: relative;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.rightCon {
+	width: 780px;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+.tuijian dd a {
+	color: #FFF;
+    background-color: #85d4f3;
+	display: block;
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.more {
+	width: 800px;
+	height: 490px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.more li {
+	width: 140px;
+	height: 110px;
+	float: left;
+	display: inline;
+	margin: 0px 20px 10px 0px;
+	position: relative;
+}
+
+.content {
+	width: 1000px;
+	height: 730px;
+	margin: 0 auto;
+}
+
+.content_left {
+	width: 210px;
+	height: 235px;
+	float: left;
+	margin-top: 27px;
+}
+
+.menu {
+	display: block;
+	width: 210px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.menu :hover {
+	background-color: aquamarine;
+	color: white;
+}
+
+.content_right {
+	width: 770px;
+	float: right;
+	margin-top: 27px;
+	overflow-y: auto;
+}
+
+.gedan_tuijian {
+	width: 770px;
+	height: 124px;
+	border-bottom: thin solid #B9B7B7;
+	margin-bottom: 16px;
+}
+
+.gedanpicture {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.spanright {
+	float: right;
+}
+
+.gedanfont {
+	width: 650px;
+	height: 106px;
+	float: right;
+}
+
+
+
+
+
+.sss {
+	display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    border: 0 solid #dbdbdb;
+    font-size: 12px;
+	border-color: #169af3;
+}
+
+.gedanfonthover a:hover{
+	color:lightskyblue;
+}
+
+.gedanfonthover {
+	display: block;
+}
+
+.gedanjieshao {
+	width: 637;
+	height: 40px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	overflow:hidden;
+    text-overflow:ellipsis;
+	 display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}

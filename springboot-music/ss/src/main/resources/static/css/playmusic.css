@@ -1,0 +1,323 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clearfix{content: "";display: block;clear: both;}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     清除浏览器自带样式以及浮动
+
+
+
+            							导航栏上方
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+body{
+	position: relative;
+	height: 100%;
+	background-image: url(../images/图片/模糊背景254.jpg);
+	background-size: cover;
+	font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
+}
+/*输入框*/
+.search1{
+	width: 1226px;
+	height: 75px;
+	margin: auto;
+}
+.search1 .bs-example{
+	width: 300px;
+}
+.search1 .navmargin{
+	float: right;
+	width: 1071px;
+	height: 78px;
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+.search1 .navmargin .form-control{
+	width: 298px;
+    height: 34px;
+    border-right: none;
+}
+.search1 .navmargin .shurukuang{
+	display: inline-block;
+}
+.search1 .navmargin .dengluzhuce{
+	float: right;
+}
+.search1 .navmargin .dengluzhuce .denglu{
+	margin:20px 5px;
+	padding: 5px 10px;
+	background-repeat:no-repeat;
+}
+
+.search1 .navmargin .dengluzhuce a{
+	color: #777;
+}
+.search1 .denglu{
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+	color: #fff;
+	border: none;
+}
+.search1 .denglu:hover{
+	background-image: linear-gradient(-20deg, #21d4fd 0%, #b721ff 100%);
+
+}
+.search1 .mymusic{
+	padding:20px 20px;
+}
+.search1 a:hover{
+	font-size: 24px;
+	transform: scale(1.2);
+}
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+                                     
+
+                                         下方开启导航栏界面编写
+
+            							
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.daohanglan{
+	height: 55px;
+	margin-top: 5px;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+
+}
+.daohanglan .big3{
+	width: 1226px;
+	margin: auto;
+}
+.daohanglan .big3 ul li{
+	float: left;
+}
+.daohanglan .big3 ul li .lanbeijin{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul li .erjicaidan2{
+	color: #fff;
+	font-size: 16px;
+	line-height: 55px;
+	padding: 19px 30px;
+}
+.daohanglan .big3 ul li a:hover{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+.daohanglan .big3 ul li ul li{
+	color: #000;
+}
+.daohanglan .big3 ul .dropdown{
+	width: 170px;
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan{
+	padding: 10px 50px;
+	border-top: 1px solid #999;
+	color: #fff;
+}
+.daohanglan .big3 ul .gudingbeij{
+	background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan:hover{
+	background-color: #252b34;
+}
+.erjicaidan {
+	background-color: rgb(40,50,59);
+}
+.dropdown-menu{
+	padding: 0;
+	margin: 0;
+	box-shadow:0 0 0 0;
+	border: none;
+	background-color: rgba(0,0,0,0);
+}
+.daohanglan .big3 ul .youfudong{
+	float: right;
+}
+.daohanglan .big3 ul .youfudong span{
+	cursor: pointer;
+	color: #fff;
+	padding: 21px 30px;
+}
+.daohanglan .big3 ul .youfudong span:hover{
+	color:#7ad6d1;
+}
+.modal-footer {
+    padding: 15px 40px 0 0;
+}
+#myCarousel .carousel-indicators li{
+	width: 50px;
+	height: 5px;
+	border-radius: 1px;
+}
+.carousel-indicators .active{
+	margin: 1px 0;
+}
+.modal  .modal-header{
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.modal  .modal-body{
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.playcontent {
+	 width: 840px;
+	height: 475px;
+	margin-left: 250px;
+	padding-top:30px;
+}
+
+.SingerPicture {
+	width: 262px;
+    height: 262px;
+    margin-bottom: 25px;
+	float: left;
+}
+
+
+
+.singerpicture {
+	width: 260px;
+	height: 260px;
+	vertical-align: middle;
+	float: left;
+}
+
+
+.lyrics {
+	width: 460px;
+	height: 400px;
+    margin-top: -7px;
+    margin-left: 116px;
+	float: left;
+	font-size: 24px;
+    font-style: normal;
+	overflow-y: scroll;
+}
+
+
+.ie8FontColor {
+	font-size: 15px;
+	color: black;
+	margin-top: 8px;
+	text-align: left;
+}
+
+.playmusic {
+	margin-bottom: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+
+.btn_xiazai {
+	float: left;
+	display: block;
+    width: 230px;
+    height: 50px;
+	background: url(../images/btn_download.png);
+    color: #333;
+    border-color:currentColor;
+	border-radius:25px 25px 25px 25px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.Songname {
+	font-size: 24px;
+    font-style: normal;
+    color:dimgrey;
+    width: 460px;
+}
+
+.songname {
+	float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 420px;
+}
+
+.Singername {
+	padding-top: 9px;
+	clear: both;
+}
+
+.abcd {
+	display: block;
+    width: 225px;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    color: #fff;
+}
+
+.player {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:80px;
+	text-align:center;
+	z-index:2;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.3);
+}
+.player li{
+	margin: 0 10px;
+	float: left;
+}
+.player .zanting{
+	width: 48px;
+	height: 48px;
+	border: 2px solid #eee;
+	border-radius: 48px;
+	margin-top: 17px;
+
+}
+.player .zanting span {
+    font-size: 31px;
+    color: #eee;
+    line-height: 42px;
+    margin-left: 4px;
+    }
+.player .qianhou{
+	width: 36px;
+	height: 36px;
+	margin-top: 22px;
+	border: 2px solid #eee;
+	border-radius: 36px;
+}
+.player .qianhou span{
+	font-size: 20px;
+	color: #eee;
+	line-height: 33px;
+}
+.player li .progress{
+	width: 300px;
+	height: 4px;
+	margin-top: 38px;
+}

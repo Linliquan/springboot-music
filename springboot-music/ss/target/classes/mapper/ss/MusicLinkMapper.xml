@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ss.vv.ss.mapper.IMusicLinkMapper">
+	<resultMap id="baseResultMap" type="com.ss.vv.ss.domain.MusicLink">
+		<id column="ml_id" jdbcType="INTEGER" property="ml_id" />
+		<result column="ml_songName" jdbcType="VARCHAR" property="ml_songName" />
+		<result column="ml_singer" jdbcType="VARCHAR" property="ml_singer" />
+		<result column="ml_songLink" jdbcType="VARCHAR" property="ml_songLink" />
+		<result column="ml_lyricLink" jdbcType="VARCHAR" property="ml_lyricLink" />
+		<result column="ml_photoLink" jdbcType="VARCHAR" property="ml_photoLink" />
+	</resultMap>
+	<sql id="baseColumnList">
+ml_id,ml_songName,ml_singer,ml_songLink,ml_lyricLink,ml_photoLink</sql>
+	<sql id="voColumnList">
+ml_id,ml_songName,ml_singer,ml_songLink,ml_lyricLink,ml_photoLink	</sql>
+		<!-- <insert id="insert" useGeneratedKeys="true" keyProperty="entity.testId">
+		INSERT INTO ${tableName} (
+		test_name, info, other
+		) VALUES (
+		#{entity.testName}, #{entity.info}, #{entity.other}
+		)	</insert>
+		<insert id="insertByBatch" parameterType="java.util.List">
+		INSERT INTO ${tableName} (
+		test_name, info, other
+		) VALUES 
+		<foreach collection="list" item="entity" index="index" separator=",">
+			(#{entity.testName}, #{entity.info}, #{entity.other})
+		</foreach>
+	</insert>
+		<update id="update">
+		UPDATE ${tableName} SET 
+		test_name=#{entity.testName}, info=#{entity.info}, other=#{entity.other}
+		 WHERE 
+		test_id = #{entity.testId}
+
+	</update>
+	<select id="getById" parameterType="java.lang.Integer" resultMap="baseResultMap">
+		select
+		<include refid="voColumnList" />
+		from ${tableName} 
+		where test_id = #{id}
+	</select>
+	<select id="getOne" parameterType="java.util.Map" resultMap="baseResultMap">
+		select
+		<if test="field == null">
+			<include refid="voColumnList" />
+		</if>
+		<if test="field != null">
+			${field}
+		</if>
+		from ${tableName} 
+		<where>
+			<foreach collection="condition" index="key" item="value">
+				${value} ${key}
+			</foreach>
+		</where>
+		limit 1;
+	</select> -->
+	<select id="getCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+		select
+		count(ml_id)
+		from ${tableName} 
+		<where>
+			<foreach collection="condition" index="key" item="value">
+				${value} ${key}
+			</foreach>
+		</where>
+	</select>
+	<!-- 这部分为根据传递参数，自动生成SQL -->
+	<select id="getList" parameterType="java.util.Map" resultMap="baseResultMap">
+		select
+		<if test="field == null">
+			<include refid="voColumnList" />
+		</if>
+		<if test="field != null">
+			${field}
+		</if>
+		from ${tableName} 
+		<where>
+			<foreach collection="condition" index="key" item="value">
+				${value} ${key}
+			</foreach>
+		</where>
+		<if test="order != null">
+			order by ${order}
+		</if>
+		<if test="limit != 0">
+			<if test="offset != 0">
+				limit ${offset}, ${limit}
+			</if>
+			<if test="offset == 0">
+				limit ${limit}
+			</if>
+		</if>
+	</select>
+	
+	<select id="songRearch2" parameterType="java.util.Map" resultMap="baseResultMap">
+		select
+		<if test="field == null">
+			<include refid="voColumnList" />
+		</if>
+		<if test="field != null">
+			${field}
+		</if>
+		from ${tableName} 
+		<where>
+			<foreach collection="condition" index="key" item="value">
+				${value} ${key}
+			</foreach>
+		</where>
+		<if test="order != null">
+			order by ${order}
+		</if>
+		<if test="limit != 0">
+			<if test="offset != 0">
+				limit ${offset}, ${limit}
+			</if>
+			<if test="offset == 0">
+				limit ${limit}
+			</if>
+		</if>
+	</select>
+	 
+	 <insert id="insertSongRearch" >
+		insert INTO mymusic 
+		(my_songName,my_singer, my_songLink,my_lyricLink,my_photoLink,user_id)
+		select ml_songName,ml_singer, ml_songLink,ml_lyricLink,ml_photoLink,${userId} from musiclink where ml_id = #{song_id}    
+	</insert>
+  
+	
+	<!-- 判断表格是否存在，如果不存在可以配合createTable使用，用于动态创建表格 -->
+	<select id="existTable" parameterType="String" resultType="java.lang.Integer">
+		select count(table_name) from information_schema.TABLES WHERE table_name=#{tableName} ;
+	</select>
+	<update id="createTable" parameterType="String">
+		<!-- 这里是创建表格的SQL，复制过来，表名作为参数传递 -->
+		<!-- create table ${tableName} (   //  表名要这样写 -->
+	</update>
+	<cache />
+</mapper>

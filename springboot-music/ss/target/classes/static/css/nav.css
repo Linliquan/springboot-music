@@ -1,0 +1,183 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
+a:focus{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clearfix{content: "";display: block;clear: both;}
+.big2{
+	float: right;
+	width: 1000px;
+	
+}
+.big .big2 .big2-head .title1{
+	display: inline-block;
+	font-size: 24px;
+	padding: 13px 40px 27px 13px;
+}
+.big .big2 .big2-head .time{
+	font-size: 14px;
+	color: #999;
+}
+.big .big2 .big2-head .play{
+	display: inline-block;
+	padding: 5px 15px;
+	background-color: #169af3;
+	color: #fff;
+	float: right;
+	margin:20px 150px;
+}
+.big .big2 .big2-head .play:hover{
+	background-color: rgb(22,100,200);
+}
+.big .big2 .big2-head{
+	border-bottom: 1px dashed rgb(204,204,204);
+}
+.big .big2 a{
+	display: block;
+	padding: 10px 0;
+	color: #000;
+}
+.big .big2 .number111{
+	color: #000;
+}
+.big .big2 .time1{
+	float: right;
+	color: rgb(204,204,204);
+	padding: 0px 60px;
+}
+.big .big2 a:hover{
+	color: #169af3;
+}
+.big .big2 .number111:hover{
+	color: #000;
+}
+
+/*输入框*/
+
+.search1{
+	width: 1226px;
+	height: 75px;
+	margin: auto;
+}
+.search1 .bs-example{
+	width: 300px;
+}
+.search1 .navmargin{
+	float: right;
+	width: 1071px;
+	height: 78px;
+	background-color: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+.search1 .navmargin .form-control{
+
+	width: 298px;
+    height: 34px;
+    border-right: none;
+}
+.search1 .navmargin .shurukuang{
+		display: inline-block;
+}
+.search1 .navmargin .dengluzhuce{
+	float: right;
+}
+.search1 .navmargin .dengluzhuce .btn{
+	width: 50px;
+	height: 30px;
+	margin:20px 5px;
+}
+.search1 .navmargin .dengluzhuce .btn-light{
+	background-color:#fff;
+	border: 1px solid #777;
+}
+.search1 .navmargin .dengluzhuce .btn-primary{
+	background-color:#169af3;
+	border: 1px solid #777;
+	margin-left: 30px;
+}
+.search1 .navmargin .dengluzhuce .btn-light:hover{
+	color: #169af3;
+	border: 1px solid #169af3;
+}
+.search1 .navmargin .dengluzhuce .btn-primary:hover{
+	background-color: rgb(22,100,200);
+}
+.search1 .navmargin .dengluzhuce a{
+	padding: 0 20px;
+	color: #777;
+}
+/*下方开启导航栏界面编写*/
+.daohanglan{
+	height: 55px;
+	margin-top: 5px;
+	background-color: rgb(40,50,59);
+}
+.daohanglan .big3{
+	width: 1226px;
+	margin: auto;
+}
+.daohanglan .big3 ul li{
+	float: left;
+}
+.daohanglan .big3 ul li .lanbeijin{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul li .erjicaidan2{
+	color: #fff;
+	font-size: 16px;
+	line-height: 55px;
+	padding: 19px 30px;
+}
+.daohanglan .big3 ul li a:hover{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul li a:visited{
+	text-decoration: none;
+}
+.daohanglan .big3 ul li ul li{
+	color: #000;
+}
+.daohanglan .big3 ul .dropdown{
+	width: 170px;
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan{
+	padding: 10px 50px;
+	border-top: 1px solid #999;
+	color: #fff;
+}
+.daohanglan .big3 ul .gudingbeij{
+	background-color: #169af3;
+}
+.daohanglan .big3 ul .dropdown-menu .erjicaidan:hover{
+	background-color: #252b34;
+}
+.erjicaidan {
+	background-color: rgb(40,50,59);
+}
+.dropdown-menu{
+	padding: 0;
+	margin: 0;
+	box-shadow:0 0 0 0;
+	border: none;
+	background-color: rgba(0,0,0,0);
+}
+.daohanglan .big3 ul .youfudong{
+	float: right;
+}
+.daohanglan .big3 ul .youfudong span{
+	color: #bbb;
+	padding: 19.5px 30px;
+}
+.daohanglan .big3 ul .youfudong span:hover{
+	color:#169af3 ;
+}

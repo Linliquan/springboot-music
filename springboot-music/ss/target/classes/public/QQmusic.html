@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <title>轻语音乐</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo1.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/player.js"></script>
+</head>
+
+<body style="user-select: none;">
+<div class="header">
+    <h1 class="logo"><a href="http://localhost:8080/test/mainpage.html"></a></h1>
+    <ul class="register">
+        <li></li>
+        <li>设置</li>
+    </ul>
+</div>
+<div class="content">
+    <div class="content_in">
+        <div class="content_left">
+            <div class="content_toolbar">
+                <span class="glyphicon glyphicon-heart-empty"> 收 藏</span>
+                <span class="glyphicon glyphicon-plus-sign"> 添加到</span>
+                <span class="glyphicon glyphicon-download-alt"> 下 载</span>
+                <span class="glyphicon glyphicon-trash"> 删 除</span>
+                <span class="glyphicon glyphicon-fire"> 清空列表</span>
+            </div>
+            <div class="content_list" data-mcs-theme="minimal-dark">
+                <ul id="sNamee">
+                    <li class="list_title">
+                        <div class="list_check"><i></i></div>
+                        <div class="list_number"></div>
+                        <div class="list_name">歌曲</div>
+                        <div class="list_singer">歌手</div>
+                        <div class="list_time">时长</div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="content_right">
+            <div class="song_info" style="margin: 100px">
+                <a href="javascript:;" class="song_info_pic">
+                    <img class="song_img" src="images/2.jpg" alt="" width="200px" height="200px">
+                </a>
+                <div class="song_info_name ">歌曲名称：
+                    <a class="songName" href="javascript:;">
+                    </a>
+                </div>
+                <div class="song_info_singer">歌 手 名 ：
+                    <a class="songSinger" href="javascript:;">
+                    </a>
+                </div>
+                <div class="song_info_ablum">专辑名称：
+                    <a href="javascript:;">未知专辑
+
+                    </a>
+                </div>
+            </div>
+            <ul class="song_lyric">
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_in">
+        <a href="javascript:;" class="music_pre"></a>
+        <a href="javascript:;" class="music_play music_play2"></a>
+        <a href="javascript:;" class="music_next"></a>
+        <div class="music_progress_info">
+            <div class="music_progress_top">
+                <span class="music_progress_name">一吻天荒 / 胡歌</span>
+                <span class="music_progress_time">00:00 / 00:00</span></div>
+            <div class="music_progress_bar">
+                <div class="music_progress_line">
+                    <div class="music_progress_dot"></div>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="music_mode "></a>
+        <a href="javascript:;" class="music_fav "></a>
+        <a href="javascript:;" class="music_down"></a>
+        <a href="javascript:;" class="music_comment"></a>
+        <a href="javascript:;" class="music_only "></a>
+        <div class="music_voice_info">
+            <a href="javascript:;" class="music_voice_icon"></a>
+            <div class="music_voice_bar">
+                <div class="music_voice_line">
+                    <div class="music_voice_dot"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="mask_bg">
+    <img class="song_img" src="images/touxiang2.jpg" alt="" width="100%" height="100%">
+</div>
+<div class="mask"></div>
+<audio id="audio" src=""></audio>
+<script src="js/index.js"></script>
+<script>
+    //工作原理代码见inde.js
+    getList2();
+
+    function getList2() {
+        $.ajax({
+            url: "myMusic/getMyMusicList",
+            type: "POST",
+            data: {
+                "user_name": $.cookie("user_name"),
+                "user_password": $.cookie("user_password"),
+                "song_id": $.cookie("song_id"),
+            },
+            success: function (data) {
+                if (data.statusCode == "200") {
+                    var str = '';
+                    /* data.data.list.length对应respon.map.list.length */
+                    for (var i = 0; i < data.data.list.length; i++) {
+                        var a = i + 1;
+                        str += '<li class="list_music">\n' +
+                            '                        <div class="list_number">' + a + '</div>\n' +
+                            '                        <div id= sName' + i + ' class="list_name" style="cursor: pointer;">' + data.data.list[i].my_songName +
+                            '<span class="glyphicon glyphicon-trash" id=sFav' + i + ' style="color: rgba(255,255,255,0.5);float: right;margin-right: 20px;cursor: pointer;"></span>' +
+                            '                        </div>\n' +
+                            '                        <div class="list_singer">' + data.data.list[i].my_singer + '</div>\n' +
+                            '                        <div class="list_time"><span class="time1">4:36</span>\n' +
+                            '                    </li>';
+
+                        function play(i) {
+                            $("#sNamee").on('click', '#sName' + i, function () {
+                                fn(i);
+                            });
+                        }
+
+                        play(i);
+
+                        function play1(i) {
+                            $("#sNamee").on('click', '#sFav' + i, function () {
+                                fn1(i);
+                                dle();
+                            });
+                        }
+
+                        play1(i);
+                    }
+
+                    function fn(j) {
+
+                        $.cookie("song_link", data.data.list[j].my_songLink, {expires: 7, path: "/"});
+                        $.cookie("song_name", data.data.list[j].my_songName, {expires: 7, path: "/"});
+                        $.cookie("song_singer", data.data.list[j].my_singer, {expires: 7, path: "/"});
+                        $.cookie("song_photo", data.data.list[j].my_photoLink, {expires: 7, path: "/"});
+                        window.location.href = "http://localhost:8080/test/QQmusic.html";
+                    }
+
+                    function fn1(j) {
+
+                        $.cookie("ml_id", data.data.list[j].my_id, {expires: 7, path: "/"});
+                    }
+
+
+                    $("#sNamee").html(str);
+                } else if (data.statusCode == "202") {
+                    alert("您还没有收藏歌曲哦，快去列表收藏吧！");
+                }
+            },
+            error: function (data) {
+                alert(JSON.stringify(data));
+            }
+        })
+    }//已在mymusic中注释
+
+    function dle() {
+        $.ajax({
+            async: false,
+            url: "/test/myMusic/deleteMyMusic",
+            type: "post",
+            data: {
+                "song_id": $.cookie("ml_id"),
+                "user_id": $.cookie("user_id"),
+            },
+            success: function (data) {//webspond
+                if (data.statusCode == "200") {
+                    window.location.reload();
+                    alert("已成功从收藏列表移除");
+
+                    //location.reload();
+                } else {
+                    alert("add error!" + data.statusMsg);
+                }
+
+            },
+
+        })
+    }//已在mymusic中注释
+</script>
+</body>

@@ -1,0 +1,13 @@
+
+说明书：
+   
+   项目名称：基于SpringBoot+Mybatis+MySQL轻语音乐网
+
+   运行步骤：1，下载本项目的压缩包并解压，用idea或eclipse或sts导入项目。
+选import>Maven>Existing Maven Projects,找到我们解压好的项目ss文件夹进行导入。
+第一次导入可能会比较慢，也可以下载maven后，用maven配置本地仓库和设置阿里云镜像后再进行导入。
+
+  2.用Navicat for mysql建立一个数据库，我建立的数据库名为game,也可以和我不一样。在项目里找到game.sql文件，用记事本或别的编辑器打开，把里面的创建表语句和插入数据语句复制到Navicat for mysql的命令列界面即可快速的建好相对应的表，总共有4个表。
+
+  3.在项目里找到application.yml，把里面的“game”改成自己的数据库名称，password的密码也改一下。我里面的数据库名是game,密码是10086。找到SsApplication.java右键Run As>java Application运行就大功告成了。
+  

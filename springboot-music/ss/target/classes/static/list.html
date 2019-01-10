@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${title}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="../css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+<link href="../css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+<link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
+<link href="../css/animate.min.css" rel="stylesheet">
+<link href="../css/style.min862f.css?v=4.1.0" rel="stylesheet">
+<link href="../css/bootstrap-table.css" rel="stylesheet">
+<link href="../css/bootstrap-editable.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+	<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<h5>${title}列表</h5>
+						<a href="${addOrEditURL}" target="_blank">
+							<button class="btn btn-sm btn-primary pull-right">新增</button>
+						</a>
+					</div>
+					<div class="ibox-content">
+						<div class="form-inline">
+							<div class="form-group">
+								<label for="exampleInputEmail2" class="control-label">状态：</label> ${statusSelect}
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail2" class="control-label">排序：</label> <select id="order" name="order"
+									class="form-control"> ${orderSelect}
+								</select> <select id="desc" name="desc" class="form-control">
+									<option value="desc">降序</option>
+									<option value="asc">升序</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="exampleInputEmail2" class="control-label">关键词：</label> <input type="text" id="keyword"
+									name="keyword" size="30" value="" class="form-control">
+							</div>
+							<button id="select" class="btn btn-sm btn-primary pull-right">筛选</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="table-responsive">
+							<table id="tableList">
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../js/jquery.min.js?v=2.1.4"></script>
+	<script src="../js/bootstrap.min.js?v=3.3.6"></script>
+	<script src="../js/plugins/peity/jquery.peity.min.js"></script>
+	<script src="../js/plugins/iCheck/icheck.min.js"></script>
+	<script src="../js/demo/peity-demo.min.js"></script>
+	<script src="../js/bootstrap-paginator.min.js"></script>
+	<script src="../js/bootstrap-editable.js"></script>
+	<script src="../js/bootstrap-table.js"></script>
+	<script src="../js/bootstrap-table-zh-CN.js"></script>
+	<script src="../js/bootstrap-table-editable.js"></script>
+	<script src="../js/jquery.validate.min.js"></script>
+	<script src="../js/tools.js"></script>
+	<script src="${jsURL}"></script>
+	<script type="text/javascript">
+		$("#select").click(function() {
+			$("#tableList").bootstrapTable("refresh");
+		});
+	</script>
+</body>
+</html>
+

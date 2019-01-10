@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>轻语MV</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mv.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo1.png">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/mainpage.css">
+
+</head>
+<body >
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                      模态框（Modal）
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="overflow: auto;">
+	<div class="modal-dialog" style="overflow: auto;">
+		<div class="modal-content"style="overflow: auto;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="false">X</button>
+				<h4 class="modal-title" id="myModalLabel">账号密码登录</h4>
+			</div>
+			<div class="modal-body" style="position: relative;">
+				<form id="test" class="form-horizontal" role="form" action="/test/user/loginPage" method="post" style="padding-left: 50px;">
+					<div class="form-group">
+						<img src="images/logo2.png" style="display: block; padding: 20px 151px">
+						<div class="erweima"><img src="images/二维码.jpg" style="position: absolute;width: 130px;
+						height: 130px;bottom: 136px;right: 31px;">
+							<p style="position: absolute;right: 64px;bottom: 106px;">联系我们</p>
+						</div>
+						<label class="col-sm-2 control-label">
+							<span class="glyphicon glyphicon-user">账号</span>
+						</label>
+						<div  class="col-sm-10">
+							<input type="text" class="form-control" id="user_name" name="user_name"
+								   placeholder="手机号/QQ号/微信" style="width: 250px">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">
+							<span class="glyphicon glyphicon-lock">密码</span>
+						</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="user_password" name="user_password"
+								   placeholder="password" style="width: 250px">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> 记住密码
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="modal-footer">
+							<button  class="btn btn-primary" data-dismiss="btn btn-default" style="background-color: #169af3;padding: 5px 30px">登 &nbsp&nbsp&nbsp&nbsp录</button>
+							<a href="http://localhost:8080/test/register.html" style="float: left;padding-top: 12px;">没有账号？点此注册</a>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                     首页头部
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div style="width: 100%;height: 80px; background-color:#fff;position: relative;">
+	<div style="position: absolute;bottom: -5px;height: 5px;width: 100%;background-color:#fff;z-index: -1;"></div>
+	<div class="search1">
+		<div class="logo1" style="width: 153px; padding: 20.6px 0; display: inline-block;"><img src="images/logo2.png" alt=""><a href=""></a></div>
+		<nav class="navmargin navbar navbar-default" role="navigation">
+			<div class="shurukuang" style="padding: 20.6px 30px;">
+				<form class="bs-example" role="form" action="#" method="get">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="中国好声音">
+								<span class="input-group-btn">
+								<button class="btn btn-default" type="submit">
+									Go!
+								</button>
+							</span>
+							</div><!-- /input-group -->
+						</div><!-- /.col-lg-6 -->
+					</div><!-- /.row -->
+				</form>
+			</div>
+			<!-- 图标加上搜索框结束 -->
+			<div id="col10" class="dengluzhuce">
+				<a class="mymusic" href="#">我的音乐</a>
+				<a class="mymusic" href="#">会员中心</a>
+				<span class="mymusic">|</span>
+				<img id="touxiang" src="images/touxiang.png" width="40px" height="40px" style="display: inline-block; width: 40px;height: 40px;border:0;border-radius: 40px;margin-bottom: 5px;">
+				<a id="userName" style="cursor: pointer;" class="mymusic" href="#">
+					未登录</a>
+				<a id="zhuXiao" onclick="zhuXiao();location.reload();" href="#">
+				</a>
+				<button id="display1" class="btn denglu" data-toggle="modal" data-target="#myModal">登 &nbsp&nbsp录</button> <!--触发模态框按钮-->
+			</div>
+		</nav>
+	</div>
+</div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                   下方nav标签导航栏开始）
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<nav class="daohanglan">
+	<div class="big3">
+		<ul>
+			<li><a class="erjicaidan2" href="http://localhost:8080/test/mainpage.html">首页</a></li>
+			<li><a class=" erjicaidan2" href="http://localhost:8080/test/bangdan.html">榜单</a></li>
+			<li><a class="gudingbeij  erjicaidan2" href="#">MV</a></li>
+			<li class="dropdown">
+				<a class="erjicaidan2" href="#" class="dropdown-toggle" data-toggle="dropdown">
+					更多 <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a class="erjicaidan" href="http://localhost:8080/test/musicRadio.html  ">电台</a></li>
+					<li><a class="erjicaidan" href="http://localhost:8080/test/songlist.html  ">歌单</a></li>
+					<li><a class="erjicaidan" href="http://localhost:8080/test/singer.html  ">歌手</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li class="youfudong"><a style="padding: 20px 0px" href="playmusic.html"><span class="glyphicon glyphicon-shopping-cart" style="font-size: 14px"> 商城</span></a> </li>
+			<li class="youfudong"><a style="padding: 20px 0px" href="http://localhost:8080/test/musician.html"><span class="glyphicon glyphicon-headphones" style="font-size: 14px"> 音乐人</span></a> </li>
+			<li class="youfudong"><a style="padding: 20px 0px" href="playmusic.html"><span class="glyphicon glyphicon-music" style="font-size: 14px"> 轻语LIVE</span></a> </li>
+			<li class="youfudong"><a style="padding: 20px 0px" href="http://localhost:8080/test/QQmusic.html"><span class="glyphicon glyphicon-star-empty" style="font-size: 14px"> 在线播放</span></a></li>
+		</ul>
+	</div>
+	</div>
+</nav>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                   MV页面
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="content">
+	<div class="boxbox">
+		<div class="col-lg-8 toptop">
+			<!--轮播图-->
+			<div class="carousel slide" id="slidershow" data-ride="carousel" data-interval="2000">
+				<!--计数器-->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#slidershow" data-slide-to="0"></li>
+					<li data-target="#slidershow" data-slide-to="1"></li>
+					<li data-target="#slidershow" data-slide-to="2"></li>
+					<li data-target="#slidershow" data-slide-to="3"></li>
+					<li data-target="#slidershow" data-slide-to="4"></li>
+					<li data-target="#slidershow" data-slide-to="5"></li>
+				</ol>
+				<!--图片容器-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/20181220183028993287.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/20181221091753971511.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/20181222101158401137.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/20181223120755381554.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/20181224161040624077.jpg"/>
+					</div>
+					<div class="item">
+						<img src="images/20181225111542828545.jpg"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 paihangpang toptop">
+			<a href="#" class="list-group-item active">MV热播总排行榜<span class="pull-right">更多</span></a>
+			<a href="#" class="list-group-item hanggao"><strong>1</strong>&nbsp;&nbsp;&nbsp;巴塔木儿歌-我的小猪</a>
+			<a href="#" class="list-group-item hanggao"><strong>2</strong>&nbsp;&nbsp;&nbsp;筷子兄弟-小苹果</a>
+			<a href="#" class="list-group-item hanggao"><strong>3</strong>&nbsp;&nbsp;&nbsp;儿歌歌曲-小跳蛙</a>
+			<a href="#" class="list-group-item hanggao">4&nbsp;&nbsp;&nbsp;筷子兄弟-小水果</a>
+			<a href="#" class="list-group-item hanggao">5&nbsp;&nbsp;&nbsp;王晶-泥娃娃</a>
+			<a href="#" class="list-group-item hanggao">6&nbsp;&nbsp;&nbsp;杨烁-找朋友</a>
+			<a href="#" class="list-group-item hanggao">7&nbsp;&nbsp;&nbsp;儿童歌曲-我的好妈妈</a>
+			<a href="#" class="list-group-item hanggao">8&nbsp;&nbsp;&nbsp;儿童歌曲-小苹果</a>
+			<a href="#" class="list-group-item hanggao">9&nbsp;&nbsp;&nbsp;儿童歌曲-小毛驴</a>
+			<a href="#" class="list-group-item hanggao">10&nbsp;&nbsp;&nbsp;儿童歌曲-拔萝卜</a>
+		</div>
+	</div>
+	<div class="mvmv" >
+		<div class="fenleititle">
+			<div class="fenlei_left">MV分类</div>
+			<div class="fenlei_right">新歌推荐（3298首）</div>
+		</div>
+		<div class="mvmv_left">
+			<span class="mvmv_left_fenlei"><a href="#xinge" data-toggle="tab">新歌推荐</a></span>
+			<span class="mvmv_left_fenlei"><a href="#oumei" data-toggle="tab">欧美精选</a></span>
+			<span class="mvmv_left_fenlei"><a href="#rihan" data-toggle="tab">日韩精选</a></span>
+			<span class="mvmv_left_fenlei"><a href="#huayu" data-toggle="tab">华语精选</a></span>
+		</div>
+
+		<div class="kanmv tab-content" id="mv">
+			<div class=" tab-pane fade in active" id="xinge">
+				<div class="mmvv"><a href="#"><img src="images/q1.jpg" alt="mv" class="mvpicture"></a><span class="mvname">潘粤明-冒牌卧底</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q2.jpg" alt="mv" class="mvpicture"></a><span class="mvname">于文文-其实其实（浮生六记LIVE版）</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q3.jpg" alt="mv" class="mvpicture"></a><span class="mvname">陈楚生-有没有曾告诉你</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q4.jpg" alt="mv" class="mvpicture"></a><span class="mvname">TWICE-What is Love?(练习室版）</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q5.jpg" alt="mv" class="mvpicture"></a><span class="mvname">华语群星-点亮心中的梦</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q6.jpg" alt="mv" class="mvpicture"></a><span class="mvname">五月天-什么歌</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q7.jpg" alt="mv" class="mvpicture"></a><span class="mvname">林俊杰-知足</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q8.jpg" alt="mv" class="mvpicture"></a><span class="mvname">林俊杰-可惜没有如果</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q9.jpg" alt="mv" class="mvpicture"></a><span class="mvname">薛之谦-怪咖（歌词版）</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q10.jpeg" alt="mv" class="mvpicture"></a><span class="mvname">胡彦斌-高手</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w1.jpg" alt="mv" class="mvpicture"></a><span class="mvname">白安-离开后</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w2.jpg" alt="mv" class="mvpicture"></a><span class="mvname">KU古曜威-MyLove一起去旅行</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q15.jpeg" alt="mv" class="mvpicture"></a><span class="mvname">冷雪儿-浪子回头</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w4.jpg" alt="mv" class="mvpicture"></a><span class="mvname">朱剑飞-孤独的牧羊人</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w5.jpg" alt="mv" class="mvpicture"></a><span class="mvname">朱兴东-熬夜成瘾</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w6.jpg" alt="mv" class="mvpicture"></a><span class="mvname">海超-话随风 人如梦</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w7.jpg" alt="mv" class="mvpicture"></a><span class="mvname">印子月-有没有一种可能</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q18.jpg" alt="mv" class="mvpicture"></a><span class="mvname">孙露-离别的秋天</span></div>
+				<div class="mmvv"><a href="#"><img src="images/q20.jpeg" alt="mv" class="mvpicture"></a><span class="mvname">蓝琪儿-爱火</span></div>
+				<div class="mmvv"><a href="#"><img src="images/w8.jpg" alt="mv" class="mvpicture"></a><span class="mvname">李行亮-愿得一人心</span></div>
+
+
+				<!--<script>
+                    for (var i=0; i<20; i++)
+                      {
+                          var button = '<div class="mmvv"><a href="#"><img src="images/mv.jpg" alt="mv" class="mvpicture"></a><span class="mvname">吴亦凡-从此以后</span></div>
+                          <div class="mmvv"><a href="#"><img src="images/mv.jpg" alt="mv" class="mvpicture"></a><span class="mvname">吴亦凡-从此以后</span></div>';
+                        document.getElementById("mv").innerHTML += button;
+
+                      }
+                </script>-->
+			</div>
+			<div class="fenye">
+				<ul class="pagination">
+					<li><a href="#">&laquo;</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                   最后 页脚
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="footer">
+	<div class="links">
+		
+	</div>
+	<div class="copyright">
+		
+			<a hidefocus="true" class="office-verification" href="http://netadreg.gzaic.gov.cn/ntmm/WebSear/WebLogoPub.aspx?logo=440106106022006022000209" target="_blank"></a>
+		</p>
+	</div>
+</div>
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap-paginator.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="text/javascript">
+
+
+    if ($.cookie("user_name")!=undefined  && $.cookie("user_name")!="1"){
+        $("#userName").text("账号："+$.cookie("user_name"));
+        $("#zhuXiao").text("注销");
+
+
+        document.getElementById("touxiang").src="images/touxiang2.jpg";
+        $("#display1").attr("style","display:none;");
+    }
+
+    $('#test').validate({
+        errorPlacement: function(error, element) {
+            error.appendTo(element.parent());
+        },
+        onfocusout:function(element){
+            $(element).valid();
+        },
+        submitHandler: function (form) {
+            denglu($('#test').attr("action"), $('#test').serialize());
+
+
+        }
+    });
+
+</script>
+</body>
+</html>

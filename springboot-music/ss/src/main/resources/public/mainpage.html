@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我们敲代码滴不懂音乐</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo1.png">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body style="user-select: none">
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+ 
+                                                      模态框（Modal） 
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+     style="overflow: auto;">
+    <div class="modal-dialog" style="overflow: auto;">
+        <div class="modal-content" style="overflow: auto;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="false">X</button>
+                <h4 class="modal-title" id="myModalLabel">账号密码登录</h4>
+            </div>
+            <div class="modal-body" style="position: relative;">
+                <form id="test" class="form-horizontal" role="form" action="/test/user/loginPage" method="post"
+                      style="padding-left: 50px;">
+                    <div class="form-group">
+                        <img src="images/logo2.png" style="display: block; padding: 20px 151px">
+                        <div class="erweima"><img src="images/二维码.jpg" style="position: absolute;width: 130px;
+						height: 130px;bottom: 136px;right: 31px;">
+                            <p style="position: absolute;right: 64px;bottom: 106px;">联系我们</p>
+                        </div>
+                        <label class="col-sm-2 control-label">
+                            <span class="glyphicon glyphicon-user">账号</span>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="user_name" name="user_name"
+                                   placeholder="手机号/QQ号/微信" style="width: 250px">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">
+                            <span class="glyphicon glyphicon-lock">密码</span>
+                        </label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="user_password" name="user_password"
+                                   placeholder="password" style="width: 250px">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> 记住密码
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-dismiss="btn btn-default"
+                                    style="background-color: #169af3;padding: 5px 30px">登 &nbsp&nbsp&nbsp&nbsp录
+                            </button>
+                            <a href="http://localhost:8080/test/register.html" style="float: left;padding-top: 12px;">没有账号？点此注册</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+ 
+                                                     首页头部 
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div style="width: 100%;height: 80px; background-color:#fff;position: relative;">
+    <div style="position: absolute;bottom: -5px;height: 5px;width: 100%;background-color:#fff;z-index: -1;"></div>
+    <div class="search1">
+        <div class="logo1" style="width: 153px; padding: 20.6px 0; display: inline-block;"><img src="images/logo2.png"
+                                                                                                alt=""><a href="#"></a>
+        </div>
+        <nav class="navmargin navbar navbar-default" role="navigation">
+            <div class="shurukuang" style="padding: 20.6px 30px;">
+                <form class="bs-example" role="form" action="#" method="get">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input type="text" id="songName" name="songName" class="form-control"
+                                       placeholder="为音乐而生">
+                                <span class="input-group-btn">
+								 <button onclick="getList2($('#songName').serialize())" class="btn btn-default"
+                                         type="button">
+									搜索
+								</button>
+							</span>
+
+
+                            </div><!-- /input-group -->
+                        </div><!-- /.col-lg-6 -->
+                        <div id="clock">
+                            <p class="time">{{ time }}</p>
+                        </div>
+                    </div><!-- /.row -->
+                </form>
+            </div>
+            <!-- 图标加上搜索框结束 -->
+            <div id="col10" class="dengluzhuce">
+                <a class="mymusic" href="http://localhost:8080/test/mymusic.html" target="_blank">我的音乐</a>
+                <a class="mymusic" href="http://localhost:8080/test/mymusic.html" target="_blank">您是第<span
+                        id="user_number" style="font-size:20px;color:red;text-align:center;padding:0;"> &nbsp</span>位用户</a>
+                <span class="mymusic">|</span>
+                <img id="touxiang" src="images/touxiang.png" width="40px" height="40px"
+                     style="display: inline-block; width: 40px;height: 40px;border:0;border-radius: 40px;margin-bottom: 5px;">
+                <a id="userName" style="cursor: pointer;" class="mymusic" href="">
+                    未登录</a>
+                <a id="zhuXiao" onclick="zhuXiao();location.reload();" href="#">
+                </a>
+                <button id="display1" class="btn denglu" data-toggle="modal" data-target="#myModal">登 &nbsp&nbsp录
+                </button> <!--触发模态框按钮-->
+            </div>
+        </nav>
+    </div>
+</div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                   下方nav标签导航栏开始）
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<nav class="daohanglan">
+    <div class="big3">
+        <ul>
+            <li><a class="gudingbeij erjicaidan2" href="#">首页</a></li>
+            <li><a class=" erjicaidan2" href="http://localhost:8080/test/bangdan.html">榜单</a></li>
+            <li><a class="erjicaidan2" href="http://localhost:8080/test/mv.html">MV</a></li>
+            <li class="dropdown">
+                <a class="erjicaidan2" href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    更多 <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="erjicaidan" href="http://localhost:8080/test/musicRadio.html">电台</a></li>
+                    <li><a class="erjicaidan" href="http://localhost:8080/test/songlist.html">歌单</a></li>
+                    <li><a class="erjicaidan" href="http://localhost:8080/test/singer.html">歌手</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li class="youfudong"><a href="http://localhost:8080/test/musicSearchTest.html" target="_blank"><span
+                    class="glyphicon glyphicon-search" style="font-size: 14px"> 搜索</span></a></li>
+            <li class="youfudong"><a href="http://localhost:8080/test/musician.html" target="_blank"><span
+                    class="glyphicon glyphicon-headphones" style="font-size: 14px"> 音乐人</span></a></li>
+            <li class="youfudong"><span class="glyphicon glyphicon-music" style="font-size: 14px"> 轻语LIVE</span></li>
+            <li class="youfudong"><a href="http://localhost:8080/test/QQmusic.html" target="_blank"><span
+                    class="glyphicon glyphicon-star-empty" style="font-size: 14px"> 在线播放</span></a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                   然后是牛逼的轮播图
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/图片/z1.jpg" alt="First slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/z2.jpg" alt="Second slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/z3.jpg" alt="Third slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/z4.jpg" alt="Second slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/f8.jpg" alt="Second slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/z20.jpg" alt="Second slide" style="height: 400px; width: 100%">
+        </div>
+        <div class="item">
+            <img src="images/图片/z23.jpg" alt="Second slide" style="height: 400px; width: 100%">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                                歌单推荐从此开始
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="big4">
+    <div class="gedan">
+        <div class="dazi"><p>歌 单 推 荐
+            <p></div>
+        <div class="xiaodaohang">
+            <a class=" xiaodaohnag1 xiaodaohang0" href="#">华语男歌手</a>
+            <a class="xiaodaohnag2" href="#">华语女歌手</a>
+            <a class="xiaodaohnag3" href="#">日韩歌手</a>
+            <a class="xiaodaohnag4" href="#">欧美男歌手</a>
+            <a class="xiaodaohnag5" href="#">欧美女歌手</a>
+            <ul class="clearfix">
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f1.jpg" width="200px" height="200px"><span>每日最新单曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f13.jpg" width="200px" height="200px"><span>每日最新网络单曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/z25.jpg" width="200px" height="200px"><span>最新伤感情歌</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f12.jpg" width="200px" height="200px"><span>最新古风歌曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f5.jpg" width="200px" height="200px"><span>最新DJ舞曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+            </ul>
+            <ul class="clearfix">
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/z13.jpg" width="200px" height="200px"><span>最新影视单曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f7.jpg" width="200px" height="200px"><span>最新欧美单曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/f9.jpg" width="200px" height="200px"><span>最新90后歌曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/z15.jpg" width="200px" height="200px"><span>轻语热门单曲</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+                <li style="width: 200px;">
+                    <div class="zhedang">
+                        <div class="bofang">
+                            <div class="bofang1"><a href=""><span class="glyphicon glyphicon-play"></span></a></div>
+                        </div>
+                    </div>
+                    <img src="images/图片/z24.jpg" width="200px" height="200px"><span>最新韩剧原声</span><span
+                        style="font-size: 12px;color: #777;display: block;">播放量：102万</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                              开始了，排行榜，快结束了
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="big5">
+    <div class="paihang">
+        <p class="da">巅 峰 排 行</p>
+        <ul>
+            <li class="back1">
+                <img src="images/paihang-1.png" width="225.2px" height="500px">
+                <div class="shang tong">
+                    <p class="da1">巅峰榜</p>
+                    <p style="font-size: 30px;font-weight: bold;	">人气</p>
+                </div>
+                <div class="xia tong">
+                    <a class="topline rQi1" href="#">1. &nbsp 落</a>
+                    <a class="rQi1" href="#" style="margin-left: 42px">艾辰</a>
+                    <a class="topline rQi2" href="#">2. &nbsp自我疗伤</a>
+                    <a class="rQi2" href="#" style="margin-left: 42px">M哥</a>
+                    <a class="topline rQi3" href="#">3. &nbsp遥远的你</a>
+                    <a class="rQi3" href="#" style="margin-left: 42px">221小伙伴</a>
+                    <a class="topline" href="#">4. &nbsp 冷</a>
+                    <a href="#" style="margin-left: 42px">莫文蔚</a>
+                </div>
+            </li>
+            <li class="back2"><img src="images/paihan-2.png" width="225.2px" height="500px">
+                <div class="shang tong">
+                    <p>巅峰榜</p>
+                    <p style="font-size: 30px;font-weight: bold;	">流行</p>
+                </div>
+                <div class="xia tong">
+                    <a class="topline lXing1" href="#">1. &nbsp 知否支付</a>
+                    <a class="lXing1" href="#" style="margin-left: 42px">胡夏、郁可唯</a>
+                    <a class="topline lXing2" href="#">2. &nbsp 天亮以前说再见</a>
+                    <a class="lXing2" href="#" style="margin-left: 42px">何野</a>
+                    <a class="topline lXing3" href="#">3. &nbsp 陪你到底</a>
+                    <a class="lXing3" href="#" style="margin-left: 42px">广东雨神、许华升</a>
+                    <a class="topline" href="#">4. &nbsp 生如雪花</a>
+                    <a href="#" style="margin-left: 42px">马天宇</a></div>
+            </li>
+            <li class="back3"><img src="images/paihan-3.jpg" width="225.2px" height="500px">
+                <div class="shang tong">
+                    <p>巅峰榜</p>
+                    <p style="font-size: 30px;font-weight: bold;	">热歌</p>
+                </div>
+                <div class="xia tong">
+                    <a class="topline rGe1" href="#">1. &nbsp 夜之光</a>
+                    <a class="rGe1" href="#" style="margin-left: 42px">花姐</a>
+                    <a class="rGe2 topline" href="#">2. &nbsp 狂浪</a>
+                    <a class="rGe2" href="#" style="margin-left: 42px">花姐</a>
+                    <a class="topline rGe3" href="#">3. &nbsp 你一定要幸福</a>
+                    <a class="rGe3" href="#" style="margin-left: 42px">虎二</a>
+                    <a class="topline" href="#">4. &nbsp 冬</a>
+                    <a href="#" style="margin-left: 42px">好妹妹</a></div>
+            </li>
+            <li class="back4"><img src="images/paihan-4.jpg" width="225.2px" height="500px">
+                <div class="shang tong">
+                    <p>巅峰榜</p>
+                    <p style="font-size: 30px;font-weight: bold;	">新曲</p>
+                </div>
+                <div class="xia tong">
+                    <a class="topline xQu1" href="#">1. &nbsp 说爱你</a>
+                    <a class="xQu1" href="#" style="margin-left: 42px">刘至佳</a>
+                    <a class="topline xQu2" href="#">2. &nbsp 生僻字</a>
+                    <a class="xQu2" href="#" style="margin-left: 42px">刘至佳</a>
+                    <a class="topline xQu3" href="#">3. &nbsp 世界第一等</a>
+                    <a class="xQu3" href="#" style="margin-left: 42px">浪哥
+                    </a>
+                    <a class="topline" href="#">4. &nbsp生僻字</a>
+                    <a href="#" style="margin-left: 42px">陈珂与</a></div>
+            </li>
+            <li class="back5"><img src="images/paihan-5.jpg" width="225.2px" height="500px">
+                <div class="shang tong">
+                    <p>巅峰榜</p>
+                    <p style="font-size: 30px;font-weight: bold;	">经典</p>
+                </div>
+                <div class="xia tong">
+                    <a class="topline jDian1" href="#">1. &nbsp 可惜没有如果</a>
+                    <a class="jDian1" href="#" style="margin-left: 42px">又又wsy</a>
+                    <a class="topline jDian2" href="#">2. &nbsp 天分</a>
+                    <a class="jDian2" href="#" style="margin-left: 42px">薛之谦</a>
+                    <a class="topline jDian3" href="#">3. &nbsp 突然想起你</a>
+                    <a class="jDian3" href="#" style="margin-left: 42px">王北车</a>
+                    <a class="topline" href="#">4. &nbsp 沙漠骆驼</a>
+                    <a href="#" style="margin-left: 42px">展展与罗罗</a></div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---
+
+                                              结束了，页脚
+
+--><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+<div class="footer">
+    <div class="links">
+        <a hidefocus="true" href="#" target="_blank">开发者：</a>
+        <a hidefocus="true" href="https://github.com/linliquan" target="_blank">林李权</a>
+        <a hidefocus="true" target="_blank" href="#">黄施邕</a>
+        <a hidefocus="true" target="_blank" href="#">吴先锋</a>
+        <a hidefocus="true" href="#" target="_blank">姚源超</a>
+        <a hidefocus="true" href="#" target="_blank">封南生</a>
+        <a hidefocus="true" href="#" target="_blank">赵联岸</a>
+        <a hidefocus="true" href="#" target="_blank">加入我们</a>
+        <a hidefocus="true" href="#" target="_blank">广告合作</a>
+    </div>
+    <div class="copyright">
+        <p style="-moz-user-select: text;-webkit-user-select: text;-ms-user-select: text; user-select:text">启迪数字学院
+            科技楼11层北1104实训中心 - 如有侵权，请联系我们：liquan_101@163.com </p>
+        <p>Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2018
+            <a hidefocus="true" class="office-verification"
+               href="http://netadreg.gzaic.gov.cn/ntmm/WebSear/WebLogoPub.aspx?logo=440106106022006022000209"
+               target="_blank"></a>
+        </p>
+    </div>
+</div>
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap-paginator.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+
+<script type="text/javascript">
+
+
+    if ($.cookie("user_name") != undefined && $.cookie("user_name") != "1") {
+        $("#userName").text("账号：" + $.cookie("user_name"));
+        $("#userName").attr("href", "http://localhost:8080/test/resetpassword.html");
+        $("#zhuXiao").text("注销");
+        document.getElementById("touxiang").src = "images/touxiang2.jpg";
+        $("#display1").attr("style", "display:none;");
+    }//已在mymusic中注释
+
+    $('#test').validate({
+        submitHandler: function () {
+            denglu($('#test').attr("action"), $('#test').serialize());
+
+        }
+    });//已在mymusic中注释
+
+
+    //
+    //
+    //            获取榜单
+    //
+    //
+    $.ajax({
+        url: "musicLink/getSongRearch",
+        type: "POST",
+        success: function (data) {
+            if (data.statusCode == "200") {
+                $(".jDian1").click(function () {//点击调用fn（）方法，并传入14，下方以此类推
+                    fn(14);
+                });
+                $(".jDian2").click(function () {
+                    fn(13);
+                });
+                $(".jDian3").click(function () {
+                    fn(12);
+                });
+
+                $(".xQu1").click(function () {
+                    fn(11);
+                });
+                $(".xQu2").click(function () {
+                    fn(10);
+                });
+                $(".xQu3").click(function () {
+                    fn(9);
+                });
+
+                $(".rGe1").click(function () {
+                    fn(8);
+                });
+                $(".rGe2").click(function () {
+                    fn(7);
+                });
+                $(".rGe3").click(function () {
+                    fn(6);
+                });
+
+                $(".lXing1").click(function () {
+                    fn(5);
+                });
+                $(".lXing2").click(function () {
+                    fn(4);
+                });
+                $(".lXing3").click(function () {
+                    fn(3);
+                });
+
+                $(".rQi1").click(function () {
+                    fn(2);
+                });
+                $(".rQi2").click(function () {
+                    fn(1);
+                });
+                $(".rQi3").click(function () {
+                    fn(0);
+                });
+
+                $("#user_number").html($.cookie("user_id"));
+
+                function fn(i) {//调用方法，更改cookie的信息，并跳转到播放页面
+                    console.log(data.data.list[i].ml_id);
+                    $.cookie("song_link", data.data.list[i].ml_songLink, {expires: 7, path: "/"});
+                    $.cookie("song_name", data.data.list[i].ml_songName, {expires: 7, path: "/"});
+                    $.cookie("song_singer", data.data.list[i].ml_singer, {expires: 7, path: "/"});
+                    $.cookie("song_photo", data.data.list[i].ml_photoLink, {expires: 7, path: "/"});
+                    window.open("http://localhost:8080/test/QQmusic.html");
+                }
+            }
+        },
+        error: function (data) {
+            alert(JSON.stringify(data));
+        }
+    })
+
+    /* 音乐搜索 */
+
+    function getList2(lll) {
+        test
+        $.ajax({
+            url: "musicLink/getSongRearch",
+            type: "POST",
+            data: lll,
+            success: function (data) {
+                if (data.statusCode == "200") {
+                    var search = document.getElementById("songName").value;
+                    $.cookie("song_search", search, {expires: 7, path: "/"});
+                    window.open("http://localhost:8080/test/musicSearchTest.html");
+                    var str = '';
+                    /* data.data.list.length对应respon.map.list.length */
+                    for (var i = 0; i < data.data.list.length; i++) {
+                        str += '<tr>'
+                            + '<td>' + data.data.list[i].ml_songName + '</td>'
+                            + '<td>' + data.data.list[i].ml_singer + '</td>'
+                            /* + '<td>' + data.data.list[i].ml_songLink + '</td>' */
+                            + '</tr>';
+                    }
+                    $("table tbody").html(str);
+                } else if (data.statusCode == "202") {
+                    alert("搜索不到歌曲,请重新输入！");
+                }
+            },
+            error: function (data) {
+                alert(JSON.stringify(data));
+            }
+        })
+    }//已在mymusic中注释
+
+    //
+    //
+    //           数字时钟
+    //
+    //
+    var clock = new Vue({
+        el: '#clock',
+        data: {
+            time: '',
+            date: ''
+        }
+    });
+    var week = ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    var timerID = setInterval(updateTime, 1000);
+    updateTime();
+
+    function updateTime() {
+        var cd = new Date();
+        clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
+        clock.date = zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth() + 1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()];
+    };
+
+    function zeroPadding(num, digit) {
+        var zero = '';
+        for (var i = 0; i < digit; i++) {
+            zero += '0';
+        }
+        return (zero + num).slice(-digit);
+    }
+</script>
+
+
+</body>
+</html>

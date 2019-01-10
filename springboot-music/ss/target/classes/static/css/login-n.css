@@ -1,0 +1,49 @@
+body {
+    background: url(../img/bg.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.header {
+  width: 1190px;
+  height: 71px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+.header img {
+    display: block;
+    width: 200px;
+}
+.main {
+  width: 1190px;
+  margin: 100px auto;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF9800;
+    font-weight: 700;
+}
+.login-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, 0.3)
+}
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background: #F48800;
+    color: #fff;
+    border: 0;
+}
+label {
+    font-weight: normal;
+}
+input[type="checkbox"] {
+    vertical-align: top;
+    margin-right: 10px;
+}
+
