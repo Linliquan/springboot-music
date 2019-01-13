@@ -19,5 +19,5 @@
  * **音乐播放器模块**：在榜单、搜索页面和我的音乐列表等地方点击歌曲可以跳转到播放页面进行播放。播放页面显示播放进度条，删除歌曲，暂停等操作。播放页面背景为模糊背景，根据歌手的专辑图片自动变化。
  ## 问题：如何启动本系统？ 
  
- 1.将sql文件在MySQL运行生成表和数据
- 2.最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.html 就可以进入本系统！
+ 1. 将sql文件在MySQL运行生成表和数据
+ 2. 最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.html 就可以进入本系统！
