@@ -7,7 +7,7 @@
  * 使用ajax连接前后端
  * 使用框架Bootstrap、JQuery开发前端界面 
  * 使用MySQL存储歌曲链接和图片链接
- * 使用cookies存储用户id
+ * 使用cookies存储用户id等
  
  ## 主要分为六个模块
  
