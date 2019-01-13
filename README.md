@@ -2,12 +2,12 @@
 
 ## 主要用到的技术：
 
- *使用maven进行项目构建
- *使用Springboot+Mybatis搭建整个系统
- *使用ajax连接前后端
- *使用框架Bootstrap、JQuery开发前端界面 
- *使用MySQL存储歌曲链接和图片链接
- *使用cookies存储用户id
+ * 使用maven进行项目构建
+ * 使用Springboot+Mybatis搭建整个系统
+ * 使用ajax连接前后端
+ * 使用框架Bootstrap、JQuery开发前端界面 
+ * 使用MySQL存储歌曲链接和图片链接
+ * 使用cookies存储用户id
  
  ## 主要分为四个模块
  
