@@ -1,4 +1,4 @@
-# 基于SpringBoot+Mybatis+MySQL的轻语音乐网 
+# 基于SpringBoot+Mybatis+MySQL5.7的轻语音乐网 
 
 ## 主要用到的技术：
 
@@ -21,4 +21,4 @@
  ## 问题：如何启动本系统？ 
  
  1.将sql文件在MySQL运行生成表和数据
- 2.最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.html就可以进入本系统！
+ 2.最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.htmlt就可以进入本系统！
