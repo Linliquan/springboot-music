@@ -26,6 +26,8 @@
  
  * 主页
  
- ![image](https://github.com/Linliquan/springboot-music/images/主页.jpg)
- 
  ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E4%B8%BB%E9%A1%B5.jpg?raw=true)
+ 
+ * 登录注册
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C.png?raw=true)
