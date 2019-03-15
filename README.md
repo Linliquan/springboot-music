@@ -21,3 +21,8 @@
  
  1. 将sql文件在MySQL运行生成表和数据
  2. 最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.html 就可以进入本系统！
+ 
+ ## 功能展示
+ 
+ * 主页
+ ![image](https://github.com/Linliquan/springboot-music/images/主页.jpg)
