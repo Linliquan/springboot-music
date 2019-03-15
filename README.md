@@ -31,3 +31,23 @@
  * 登录注册
  
  ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C.png?raw=true)
+ 
+ * 播放页面
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E6%92%AD%E6%94%BE%E9%A1%B5%E9%9D%A2.png?raw=true)
+ 
+ * 收藏
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E6%94%B6%E8%97%8F.png?raw=true)
+ 
+ * 搜索
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E6%90%9C%E7%B4%A2.png?raw=true)
+ 
+ * 删除
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E5%88%A0%E9%99%A4.png?raw=true)
+ 
+ * 炫酷动画
+ 
+ ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E7%82%AB%E9%85%B7%E5%8A%A8%E7%94%BB.png?raw=true)
