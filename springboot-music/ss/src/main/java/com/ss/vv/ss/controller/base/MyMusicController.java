@@ -55,7 +55,7 @@ public class MyMusicController {
 
 		Integer statusCode = 200;
 
-		// 数据库插入语句，对应xml文件
+		// 数据库插入语句，对应xml文件的insert
 		this.myMusicService.insert(myMusic);
 
 		webResponse.setStatusCode(statusCode);

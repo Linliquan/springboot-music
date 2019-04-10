@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @MapperScan("com.ss.vv.*.mapper")
-public class SsApplication {    
+public class SsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SsApplication.class, args);
