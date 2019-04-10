@@ -1,9 +1,9 @@
-
+﻿
 说明书：
    
    项目名称：基于SpringBoot+Mybatis+MySQL轻语音乐网
 
-   运行步骤：1，下载本项目的压缩包并解压，用idea或eclipse或sts导入项目。
+   运行步骤：1，下载本项目的压缩包并解压，用idea或eclipse或sts导入项目，我这里用sts。
 选import>Maven>Existing Maven Projects,找到我们解压好的项目ss文件夹进行导入。
 第一次导入可能会比较慢，也可以下载maven后，用maven配置本地仓库和设置阿里云镜像后再进行导入。
 
