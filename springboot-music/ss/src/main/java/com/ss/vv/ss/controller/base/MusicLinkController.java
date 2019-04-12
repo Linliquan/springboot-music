@@ -256,7 +256,7 @@ public class MusicLinkController {
 			// boolean NotisNum
 			// =(user_Id.equals(null)||user_Id.equals("")||user_Id.equals("null"));
 			boolean NotisNum = (jSong.equals("null"));
-			// System.out.println(NotisNum);
+
 			if (!NotisNum) {
 				my_Id = Integer.parseInt(jSong);
 			}
