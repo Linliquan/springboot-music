@@ -67,7 +67,7 @@ public class MusicLinkController {
 	 *  加上 @Responsebody 后返回结果不会被解析为跳转路径，而是直接写入HTTP 响应正文中。 
      *  作用： 该注解用于将Controller的方法返回的对象，通过适当的HttpMessageConverter转换为指定格式后，写入到Response对象的body数据区。
      *   
-     *  使用时机： 返回的数据不是html标签的页面，而是其他某种格式的数据时（如json、xml等）使用；
+     *
      *
 	 * 
 	 *  @RequestParam（value="aa" required=false）
