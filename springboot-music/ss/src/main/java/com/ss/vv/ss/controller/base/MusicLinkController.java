@@ -81,13 +81,7 @@ public class MusicLinkController {
 	 *   3、如果@requestParam注解的参数是int类型，并且required=false，此时如果不传参数的话，会报错。原因是，required=false时，不传参数的话，
 	 *   会给参数赋值null，这样就会把null赋值给了int，因此会报错。
 	 *      
-	 *      Http:首先呢是springMVC默认支持的绑定类型有：
-     *
-     *      HttpServletReequest对象：通过request对象可以获取参数信息
-     *
-     *      HttpservletResponse对象：通过response对象可以处理响应信息
-     *
-     *      HTTPSession对象：获取session中存储的对象
+	 *
 	 * 
 	 */ 
 	
