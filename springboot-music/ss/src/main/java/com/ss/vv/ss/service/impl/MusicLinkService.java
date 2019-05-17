@@ -22,7 +22,7 @@ import com.ss.vv.ss.service.IMusicLinkService;
 public class MusicLinkService extends AbstractService<MusicLink, MusicLink> implements IMusicLinkService {
 
 	public MusicLinkService() {
-		this.setTableName("musicLink");
+		this.setTableName("musiclink");
 	}
 
 	@Resource
