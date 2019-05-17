@@ -65,7 +65,7 @@
                             <button class="btn btn-primary" data-dismiss="btn btn-default"
                                     style="background-color: #169af3;padding: 5px 30px">登 &nbsp&nbsp&nbsp&nbsp录
                             </button>
-                            <a href="http://localhost:8080/test/register.html" style="float: left;padding-top: 12px;">没有账号？点此注册</a>
+                            <a href="/test/register.html" style="float: left;padding-top: 12px;">没有账号？点此注册</a>
                         </div>
                     </div>
                 </form>
@@ -113,8 +113,8 @@
             </div>
             <!-- 图标加上搜索框结束 -->
             <div id="col10" class="dengluzhuce">
-                <a class="mymusic" href="http://localhost:8080/test/mymusic.html" target="_blank">我的音乐</a>
-                <a class="mymusic" href="http://localhost:8080/test/mymusic.html" target="_blank">您是第<span
+                <a class="mymusic" href="/test/mymusic.html" target="_blank">我的音乐</a>
+                <a class="mymusic" href="/test/mymusic.html" target="_blank">您是第<span
                         id="user_number" style="font-size:20px;color:red;text-align:center;padding:0;"> &nbsp</span>位用户</a>
                 <span class="mymusic">|</span>
                 <img id="touxiang" src="images/touxiang.png" width="40px" height="40px"
@@ -138,26 +138,26 @@
     <div class="big3">
         <ul>
             <li><a class="gudingbeij erjicaidan2" href="#">首页</a></li>
-            <li><a class=" erjicaidan2" href="http://localhost:8080/test/bangdan.html">榜单</a></li>
-            <li><a class="erjicaidan2" href="http://localhost:8080/test/mv.html">MV</a></li>
+            <li><a class=" erjicaidan2" href="/test/bangdan.html">榜单</a></li>
+            <li><a class="erjicaidan2" href="/test/mv.html">MV</a></li>
             <li class="dropdown">
                 <a class="erjicaidan2" href="#" class="dropdown-toggle" data-toggle="dropdown">
                     更多 <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="erjicaidan" href="http://localhost:8080/test/musicRadio.html">电台</a></li>
-                    <li><a class="erjicaidan" href="http://localhost:8080/test/songlist.html">歌单</a></li>
-                    <li><a class="erjicaidan" href="http://localhost:8080/test/singer.html">歌手</a></li>
+                    <li><a class="erjicaidan" href="/test/musicRadio.html">电台</a></li>
+                    <li><a class="erjicaidan" href="/test/songlist.html">歌单</a></li>
+                    <li><a class="erjicaidan" href="/test/singer.html">歌手</a></li>
                 </ul>
             </li>
         </ul>
         <ul>
-            <li class="youfudong"><a href="http://localhost:8080/test/musicSearchTest.html" target="_blank"><span
+            <li class="youfudong"><a href="/test/musicSearchTest.html" target="_blank"><span
                     class="glyphicon glyphicon-search" style="font-size: 14px"> 搜索</span></a></li>
-            <li class="youfudong"><a href="http://localhost:8080/test/musician.html" target="_blank"><span
+            <li class="youfudong"><a href="/test/musician.html" target="_blank"><span
                     class="glyphicon glyphicon-headphones" style="font-size: 14px"> 音乐人</span></a></li>
             <li class="youfudong"><span class="glyphicon glyphicon-music" style="font-size: 14px"> 轻语LIVE</span></li>
-            <li class="youfudong"><a href="http://localhost:8080/test/QQmusic.html" target="_blank"><span
+            <li class="youfudong"><a href="/test/QQmusic.html" target="_blank"><span
                     class="glyphicon glyphicon-star-empty" style="font-size: 14px"> 在线播放</span></a></li>
         </ul>
     </div>
@@ -446,7 +446,7 @@
 
     if ($.cookie("user_name") != undefined && $.cookie("user_name") != "1") {
         $("#userName").text("账号：" + $.cookie("user_name"));
-        $("#userName").attr("href", "http://localhost:8080/test/resetpassword.html");
+        $("#userName").attr("href", "/test/resetpassword.html");
         $("#zhuXiao").text("注销");
         document.getElementById("touxiang").src = "images/touxiang2.jpg";
         $("#display1").attr("style", "display:none;");
@@ -528,7 +528,7 @@
                     $.cookie("song_name", data.data.list[i].ml_songName, {expires: 7, path: "/"});
                     $.cookie("song_singer", data.data.list[i].ml_singer, {expires: 7, path: "/"});
                     $.cookie("song_photo", data.data.list[i].ml_photoLink, {expires: 7, path: "/"});
-                    window.open("http://localhost:8080/test/QQmusic.html");
+                    window.open("/test/QQmusic.html");
                 }
             }
         },
@@ -549,7 +549,7 @@
                 if (data.statusCode == "200") {
                     var search = document.getElementById("songName").value;
                     $.cookie("song_search", search, {expires: 7, path: "/"});
-                    window.open("http://localhost:8080/test/musicSearchTest.html");
+                    window.open("/test/musicSearchTest.html");
                     var str = '';
                     /* data.data.list.length对应respon.map.list.length */
                     for (var i = 0; i < data.data.list.length; i++) {

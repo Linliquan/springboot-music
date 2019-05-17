@@ -17,7 +17,7 @@
 
 <body style="user-select: none;">
 <div class="header">
-    <h1 class="logo"><a href="http://localhost:8080/test/mainpage.html"></a></h1>
+    <h1 class="logo"><a href="/test/mainpage.html"></a></h1>
     <ul class="register">
         <li></li>
         <li>设置</li>
@@ -159,7 +159,7 @@
                         $.cookie("song_name", data.data.list[j].my_songName, {expires: 7, path: "/"});
                         $.cookie("song_singer", data.data.list[j].my_singer, {expires: 7, path: "/"});
                         $.cookie("song_photo", data.data.list[j].my_photoLink, {expires: 7, path: "/"});
-                        window.location.href = "http://localhost:8080/test/QQmusic.html";
+                        window.location.href = "/test/QQmusic.html";
                     }
 
                     function fn1(j) {

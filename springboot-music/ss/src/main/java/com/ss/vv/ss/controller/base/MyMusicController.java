@@ -21,14 +21,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.ss.vv.common.WebResponse;
 import com.ss.vv.ss.domain.MyMusic;
-import com.ss.vv.ss.domain.MyMusic;
-import com.ss.vv.ss.mapper.IUserMapper;
 import com.ss.vv.ss.service.IMyMusicService;
 
 /**
  * 
  * @author linliquan
- * @data 2018年12月23日 00:03:48
+ * @date 2018年12月23日 00:03:48
  */
 
 @Controller
