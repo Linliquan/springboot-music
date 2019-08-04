@@ -20,7 +20,7 @@
  ## 问题：如何启动本系统？ 
  
  1. 将sql文件在MySQL运行生成表和数据
- 2. 最后直接启动SsApplication类后访问http://localhost:8080/test/mainpage.html 就可以进入本系统！
+ 2. 最后直接启动SsApplication类后访问http://localhost:8080/index.html 就可以进入本系统！
  
  ## 功能展示
  
