@@ -318,7 +318,7 @@
 
     // Check for mime type support against a player instance
     // Credits: http://diveintohtml5.info/everything.html
-    // Related: http://www.leanbackplayer.com/test/h5mt.html
+    // Related: http://www.leanbackplayer.com/h5mt.html
     function _supportMime(player, mimeType) {
         var media = player.media;
 

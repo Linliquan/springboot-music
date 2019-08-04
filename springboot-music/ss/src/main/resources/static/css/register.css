@@ -1,4 +1,4 @@
-@charset "utf-8";
+
 /* CSS Document */
 .header ul li a {
 	color: #0c85cc;
@@ -194,7 +194,7 @@ body{
     font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
 }
 .logo2 {
-	margin-top: ;
+	margin-top:5px;
 	padding-top: 0;
 }
 

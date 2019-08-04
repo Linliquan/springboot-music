@@ -16,7 +16,7 @@ public class Config {
 	 * 项目物理地址
 	 */
 //	public static final String PROJECT_PATH = "E:/work/support";
-//	public static final String PROJECT_PATH = "E:/work/test";
+//	public static final String PROJECT_PATH = "E:/work";
 
 	/**
 	 * mappings 要存放的模块名称

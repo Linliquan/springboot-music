@@ -1,7 +1,7 @@
 server:
   port: 8080
   servlet:
-    context-path: /test
+    context-path: /
   tomcat:
     accesslog:
       buffered: true

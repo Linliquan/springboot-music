@@ -72,7 +72,7 @@ public class MyMusicController {
 			@RequestParam(defaultValue = "ml_id", required = false) String order,
 			@RequestParam(defaultValue = "desc", required = false) String desc,
 			@RequestParam(required = false) String user_name, @RequestParam(required = false) String user_password,
-			@RequestParam(required = false) int song_id) {
+			@RequestParam(required = false) Integer song_id) {
 
 		System.out.println("我的音乐显示列表前收藏的歌曲id" + song_id);
 		String user_Id = null;
@@ -125,32 +125,42 @@ public class MyMusicController {
 		// List<MyMusic> list = this.myMusicService.getList(condition, pageNo, pageSize,
 		// order, field);
 
-		List<MyMusic> list = this.myMusicService.getMyMusicList(userId, song_id);
+		try {
+			List<MyMusic> list = this.myMusicService.getMyMusicList(userId, song_id);
 
-		Map<Object, Object> map = new HashMap<Object, Object>();
-		// map.put("total", count);
-		int size = list.size();
-		if (size > 0) {
-			List<MyMusic> listFont = new ArrayList<MyMusic>();
-			MyMusic vo;
-			MyMusic voFont = new MyMusic();
-			for (int i = 0; i < size; i++) {
-				vo = list.get(i);
-				// 通过java反射将类中当前属性字段对应的内容复制到另外一个类中
-				BeanUtils.copyProperties(vo, voFont);
-				listFont.add(voFont);
-				voFont = new MyMusic();
+			Map<Object, Object> map = new HashMap<Object, Object>();
+			// map.put("total", count);
+			int size = list.size();
+			if (size > 0) {
+				List<MyMusic> listFont = new ArrayList<MyMusic>();
+				MyMusic vo;
+				MyMusic voFont = new MyMusic();
+				for (int i = 0; i < size; i++) {
+					vo = list.get(i);
+					// 通过java反射将类中当前属性字段对应的内容复制到另外一个类中
+					BeanUtils.copyProperties(vo, voFont);
+					listFont.add(voFont);
+					voFont = new MyMusic();
+				}
+				map.put("list", listFont);
+				data = map;
+				statusMsg = "根据条件获取分页数据成功！！！";
+			} else {
+				map.put("list", list);
+				data = map;
+				statusCode = 202;
+				statusMsg = "no record!!!";
+				return webResponse.getWebResponse(statusCode, statusMsg, data);
 			}
-			map.put("list", listFont);
-			data = map;
-			statusMsg = "根据条件获取分页数据成功！！！";
-		} else {
-			map.put("list", list);
-			data = map;
-			statusCode = 202;
-			statusMsg = "no record!!!";
-			return webResponse.getWebResponse(statusCode, statusMsg, data);
+
+		}catch (Exception e){
+
 		}
+
+
+
+
+
 
 		return webResponse.getWebResponse(statusCode, statusMsg, data);
 	}
@@ -167,8 +177,14 @@ public class MyMusicController {
 		Object data = null;
 		String statusMsg = "";
 		int statusCode = 201;
+		int del = 0;
 
-		int del = this.myMusicService.deleteMyMusic(song_id, user_id);
+		if (user_id == null){
+			 del = this.myMusicService.deleteMyMusic(song_id, 0);
+		}else {
+			del = this.myMusicService.deleteMyMusic(song_id, user_id);
+		}
+
 		if (del > 0) {
 			statusCode = 200;
 		}
