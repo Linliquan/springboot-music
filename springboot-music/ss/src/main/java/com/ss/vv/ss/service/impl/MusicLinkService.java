@@ -36,7 +36,6 @@ public class MusicLinkService extends AbstractService<MusicLink, MusicLink> impl
 	@Override
 	public void setTableName(String tableName) {
 		this.tableName = tableName;
-		;
 	}
 
 	public List<MusicLink> songRearch(String songName) {
