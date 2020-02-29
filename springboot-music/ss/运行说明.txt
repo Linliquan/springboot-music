@@ -8,7 +8,11 @@
 (后面我换成了idea，所以也可以下载压缩包后用idea打开，或者直接使用git将项目clone到本地)
 第一次导入可能会比较慢，也可以下载maven后，用maven配置本地仓库和设置阿里云镜像后再进行导入。
 
+idea导入方式：可以在D盘新建music_workSpace文件夹，使用git进入到该文件夹下，然后使用"git clone git@github.com:Linliquan/springboot-music.git"命令clone项目。项目大概110M左右，可能下载比较慢点。如果下载失败，可以尝试下载几次或者使用"git clone git@github.com:Linliquan/springboot-music.git --depth 1"命令下载。下载完成后,可以用idea选择File > Open > music_workSpace > springboot-music,点击OK直接打开项目。下载依赖一般比较慢，所以maven记得配置好本地仓库和阿里云镜像。
+
   2.用Navicat for mysql建立一个数据库，我建立的数据库名为game,也可以和我不一样。在项目里找到game.sql文件，用记事本或别的编辑器打开，把里面的创建表语句和插入数据语句复制到Navicat for mysql的命令列界面即可快速的建好相对应的表，总共有4个表。
 
   3.在项目里找到application.yml，把里面的“game”改成自己的数据库名称，password的密码也改一下。我里面的数据库名是game,密码是10086。找到SsApplication.java右键Run As>java Application运行就大功告成了。
+  
+  如果运行失败可能是8080端口被占用，可以解除占用再运行或者改为8082端口运行。
   
