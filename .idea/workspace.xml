@@ -1,818 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../springboot-springdata-jpa/src/main/java/com/spring/springbootspringdatajpa/SpringbootSpringdataJpaApplication.java" description="public static void main(String[] args) {" line="8" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9618b01d-b170-4037-8870-c909f061329d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/MusicLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/MusicLinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/二维码2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_0_RC1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_0_RC1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_0_RC1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_0_RC1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_8_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_22_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_M3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_M3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_0_RC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_0_RC2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_0_RC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_0_RC2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_0_RC2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_0_RC2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_0_RC3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_0_RC3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/bangdan.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/bangdan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/.idea/resources.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/AutoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/SsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/AbstractService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/IOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/IServiceOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/StatusConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/common/WebResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/controller/base/MusicLinkController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/controller/base/MyMusicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/controller/base/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/controller/base/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/domain/MusicLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/domain/MyMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/domain/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/mapper/IMusicLinkMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/mapper/IMyMusicMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/mapper/ITestMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/mapper/IUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/IMusicLinkService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/IMyMusicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/ITestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/impl/MusicLinkService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/impl/MyMusicService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/impl/TestService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/com/ss/vv/ss/service/impl/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/mapper/ss/MusicLinkMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/mapper/ss/TestMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/mapper/ss/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/QQmusic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/bangdan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/1234.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181220183028993287.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181221091753971511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181222101158401137.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181223120755381554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181224161040624077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/20181225111542828545.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/MV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/Singer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/back1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/back2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/bg_profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/bo_fang (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/bo_fang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/gedan_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/gedan_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/gedan_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/gedan_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/gerentouxianag.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/huiyuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/jlt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/list9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/mv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/paihan-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/paihan-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/paihan-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/paihan-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/paihang-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/playmusicbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q15.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q20.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/q9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/s9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/timg (4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/timg (5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/timg (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/timg (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/timg (8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/touxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/touxiang2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/w8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/y1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/z2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/z23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/z24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/上升.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/下载 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/下载.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/下降.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/书本.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/二维码.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/全部标签页.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/分享 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/分享.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/删 除.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/古巨基.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/f9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/z4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/图片/模糊背景254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/录音.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/拍摄.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/播放.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/旗帜.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/添加 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/添加.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/耳机.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/images/音乐.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/221小伙伴 - 遥远的你.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/何野 - 天亮以前说再见.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/刘至佳 - 生僻字.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/刘至佳 - 说爱你.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/又又wsy - 可惜没如果.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/展展与罗罗 - 沙漠骆驼.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/广东雨神、许华升 - 陪你到底.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/李易峰 - 请跟我联络.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/浪哥 - 世界第一等.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/王北车 - 突然想起你.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/胡夏、郁可唯 - 知否知否.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/自我疗伤.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/艾辰 - 落.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/花姐 - 夜之光.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/花姐 - 狂浪.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/薛之谦 - 天份.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/music/虎二 - 你一定要幸福.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/musicRadio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/musicSearchTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/musician.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/mv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/mymusic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/resetpassword.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/singer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/songlist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/public/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/addOrEdit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bangdan.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bootstrap-editable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bootstrap-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bootstrap-table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/bootstrap.min14ed.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/demo/webuploader-demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/font-awesome.min93e3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/jquery.mCustomScrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/login-n.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/login.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/mainpage1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/musicRadio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/musician.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/mv.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/mymusic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/nav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/patterns/header-profile-skin-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/patterns/header-profile-skin-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/patterns/header-profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/patterns/shattered.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/playmusic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/css/blueimp-gallery-indicator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/css/blueimp-gallery-video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/css/blueimp-gallery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/error.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/play-pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/video-play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/blueimp/img/video-play.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/bootstrap-table/bootstrap-table.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/chosen/chosen-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/chosen/chosen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/clockpicker/clockpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/codemirror/ambiance.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/cropper/cropper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/datapicker/datepicker3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/dropzone/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/dropzone/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/duallistbox/bootstrap-duallistbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/footable/fonts/footable.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/footable/fonts/footable.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/footable/fonts/footable.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/footable/fonts/footable.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/footable/footable.core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/iCheck/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/iCheck/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/iCheck/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/images/sprite-skin-flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jsTree/32px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jsTree/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/jsTree/throbber.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/markdown/bootstrap-markdown.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/multiselect/bootstrap-multiselect.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/plyr/plyr.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/plyr/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/simditor/simditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/steps/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/summernote/summernote-bs3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/summernote/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/sweetalert/sweetalert.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/switchery/switchery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/toastr/toastr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/treeview/bootstrap-treeview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/plugins/webuploader/webuploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/singer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/songlist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/css/style.min862f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/a9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/browser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/browser.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/iconfont-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/index.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/index_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/loading-upload.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/locked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/login-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p_big1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p_big2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/p_big3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/pay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/profile_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/profile_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/qr_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/sprite-skin-flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/webuploader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/img/wenku_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap-editable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap-paginator.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap-table-editable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap-table-zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap-table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/contabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/contabs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/bootstrap-table-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/bootstrap_table_test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/bootstrap_table_test2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/echarts-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/flot-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/form-advanced-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/form-validate-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/layer-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/morris-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/peity-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/photos.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/rickshaw-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/sparkline-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/table_base.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/treeview-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/demo/webuploader-demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/hplus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/hplus.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery-ui-1.10.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery-ui.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery.mCustomScrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/player.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/beautifyhtml/beautifyhtml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/bootstrap-table/bootstrap-table.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/chartJs/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/chosen/chosen.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/clockpicker/clockpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/apl/apl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/apl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/asterisk/asterisk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/asterisk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/clike/clike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/clike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/clike/scala.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/clojure/clojure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/clojure/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/cobol/cobol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/cobol/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/coffeescript/coffeescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/coffeescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/commonlisp/commonlisp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/commonlisp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/less.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/less_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/scss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/scss_test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/css/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/cypher/cypher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/cypher/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/d/d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/d/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dart/dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dart/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/diff/diff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/diff/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/django/django.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/django/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dockerfile/dockerfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dockerfile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dtd/dtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dtd/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dylan/dylan.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/dylan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ebnf/ebnf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ebnf/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ecl/ecl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ecl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/eiffel/eiffel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/eiffel/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/erlang/erlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/erlang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/fortran/fortran.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/fortran/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gas/gas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gas/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gfm/gfm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gfm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gfm/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gherkin/gherkin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/gherkin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/go/go.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/go/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/groovy/groovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/groovy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haml/haml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haskell/haskell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haskell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haxe/haxe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/haxe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/htmlembedded/htmlembedded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/htmlembedded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/htmlmixed/htmlmixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/htmlmixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/http/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/http/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/idl/idl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/idl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/jade/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/jade/jade.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/javascript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/javascript/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/javascript/json-ld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/javascript/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/javascript/typescript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/jinja2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/jinja2/jinja2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/julia/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/julia/julia.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/kotlin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/kotlin/kotlin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/livescript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/livescript/livescript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/lua/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/lua/lua.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/markdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/markdown/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/markdown/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/mirc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/mirc/mirc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/mllike/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/mllike/mllike.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/modelica/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/modelica/modelica.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/nginx/nginx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ntriples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ntriples/ntriples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/octave/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/octave/octave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pascal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pascal/pascal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pegjs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pegjs/pegjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/perl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/perl/perl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/php/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/php/php.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/php/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pig/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/pig/pig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/properties/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/properties/properties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/puppet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/puppet/puppet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/python/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/python/python.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/q/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/q/q.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/r/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/r/r.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rpm/changes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rpm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rpm/rpm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rst/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rst/rst.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ruby/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ruby/ruby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/ruby/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rust/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/rust/rust.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sass/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sass/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/scheme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/scheme/scheme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/shell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/shell/shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/shell/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sieve/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sieve/sieve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/slim/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/slim/slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/slim/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smalltalk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smalltalk/smalltalk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smarty/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smarty/smarty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smartymixed/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/smartymixed/smartymixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/solr/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/solr/solr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/soy/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/soy/soy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sparql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sparql/sparql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/spreadsheet/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/spreadsheet/spreadsheet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sql/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/sql/sql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/stex/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/stex/stex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/stex/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tcl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tcl/tcl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/textile/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/textile/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/textile/textile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiddlywiki/tiddlywiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiki/tiki.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tiki/tiki.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/toml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/toml/toml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tornado/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/tornado/tornado.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/turtle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/turtle/turtle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/vb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/vb/vb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/vbscript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/vbscript/vbscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/velocity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/velocity/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/verilog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/verilog/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/verilog/verilog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xml/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xml/xml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xquery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xquery/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/xquery/xquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/yaml/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/yaml/yaml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/z80/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/codemirror/mode/z80/z80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/cropper/cropper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/dataTables/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/dataTables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/diff_match_patch/diff_match_patch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/dropzone/dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/easypiechart/jquery.easypiechart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/echarts/echarts-all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/fancybox_loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/fancybox_loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/fancybox_overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/fancybox_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/fancybox_sprite@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/jquery.fancybox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fancybox/jquery.fancybox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/curvedLines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.spline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/footable/footable.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/fullcalendar/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/gritter/images/gritter-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/gritter/images/gritter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/gritter/images/ie-spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/gritter/jquery.gritter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/iCheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jasny/jasny-bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jeditable/jquery.jeditable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jqgrid/i18n/grid.locale-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jsKnob/jquery.knob.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jsTree/jstree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jsTree/jstree.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/extend/layer.ext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/laydate/laydate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/laydate/need/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/laydate/skins/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/laydate/skins/default/laydate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/data/chatlog.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/data/friend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/data/group.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/data/groups.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/layim.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/layim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/layim/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/icon_ext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/textbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_ico0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_loading0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_loading1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_loading2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_loading3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/default/xubox_title0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/layer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/layer.ext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/moon/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/layer/skin/moon/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/markdown/bootstrap-markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/markdown/bootstrap-markdown.zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/markdown/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/markdown/to-markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/morris/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/morris/raphael-2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/multiselect/bootstrap-multiselect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/nestable/jquery.nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/nouslider/jquery.nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/pace/pace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/peity/jquery.peity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/plyr/plyr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/prettyfile/bootstrap-prettyfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/rickshaw/rickshaw.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/rickshaw/vendor/d3.v3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/hotkeys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/hotkeys.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/module.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/simditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/simditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/uploader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/simditor/uploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/staps/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/suggest/bootstrap-suggest.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/suggest/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/summernote/summernote-zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/summernote/summernote.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/sweetalert/sweetalert.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/switchery/switchery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/toastr/toastr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/treeview/bootstrap-treeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/validate/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/validate/messages_zh.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/Uploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.fis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.flashonly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.html5only.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.html5only.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.noimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.noimage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.nolog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.nolog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.withoutimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/plugins/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/ss/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/tableList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/welcome.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/js/welcome.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/c#/Upload.aspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/c#/Upload.aspx.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/c#/bin/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/vb/Upload.aspx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/vb/Upload.aspx.vb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp.net/vb/bin/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp/Upload.asp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/asp/Upload.asp.cls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/crossdomain.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/expressInstall.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/fullAvatarEditor.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/jsp/WEB-INF/lib/commons-fileupload-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/jsp/WEB-INF/lib/fastjson-1.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/jsp/upload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/php/upload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/fullAvatarEditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/jQuery.Cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/jQuery.Drag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/jQuery.Resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/jQuery.dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/swfobject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/scripts/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/plugins/fullavatareditor/simpleDemo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/ss/addOrEditTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/target/classes/static/ss/testList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-music/ss/运行说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/运行说明.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/musicRadio.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/musicRadio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/musician.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/musician.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/mv.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/mv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/mymusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/mymusic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/singer.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/singer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/songlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/songlist.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot-music/ss/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -840,35 +124,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/static/js/tools.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="184">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/controller/base/MyMusicController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="99" column="86" selection-start-line="99" selection-start-column="86" selection-end-line="99" selection-end-column="86" />
-              <folding>
-                <element signature="e#3203#3219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/运行说明.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -876,68 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="600" column="5" selection-start-line="600" selection-start-column="5" selection-end-line="600" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/controller/base/MusicLinkController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6496">
-              <caret line="256" column="31" selection-start-line="256" selection-start-column="31" selection-end-line="256" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/common/WebResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/common/AbstractService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/common/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/common/IOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="28">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -963,10 +168,13 @@
       <find>entity</find>
       <find>baseResultMap</find>
       <find>loginPage</find>
+      <find>二维码</find>
+      <find>二维码2</find>
     </findStrings>
     <replaceStrings>
       <replace>index</replace>
       <replace />
+      <replace>二维码2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -989,17 +197,18 @@
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/register.html" />
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/controller/base/UserController.java" />
-        <option value="$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/resources/mapper/ss/TestMapper.xml" />
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/mapper/IUserMapper.java" />
         <option value="$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/MusicLinkService.java" />
         <option value="$PROJECT_DIR$/springboot-music/ss/运行说明.txt" />
+        <option value="$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenRepository" />
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -1017,26 +226,20 @@
           <item name="ss" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ss" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1120,134 +323,13 @@
               <item name="ss" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="vv" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1257,14 +339,19 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578409583596" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first-app-demo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582981009043" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\music workSpace\springboot-music\springboot-music\ss\src\main\resources\public\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1287,7 +374,7 @@
       <option name="defaultTabIdx" value="0" />
       <option name="ecsInstance">
         <EcsInstance>
-          <option name="OSType" />
+          <option name="OSType" value="linux" />
           <option name="instanceId" value="i-uf6dd349oeo16wqceoaa" />
           <option name="instanceName" value="iZuf6dd349oeo16wqceoaaZ" />
           <option name="netType" value="vpc" />
@@ -1301,14 +388,12 @@
       </option>
       <option name="hostTagId" value="0" />
       <option name="location" value="/home/springboot/springbootMusic3" />
-      <option name="pathOrUrl" value="D:\idea工作空间\springboot-music\springboot-music\ss\target\springboot-music.jar" />
+      <option name="pathOrUrl" value="E:\我的U盘\实训项目最终版本\2020-02-29\springboot-music.jar" />
       <option name="tagId" value="0" />
       <option name="terminalCommand" />
       <option name="type" value="ECS" />
-      <option name="uploadType" value="MAVEN" />
-      <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../springboot-music\pom.xml" goal="clean install" />
-      </method>
+      <option name="uploadType" value="FILE" />
+      <method v="2" />
     </configuration>
     <configuration name="SsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ss" />
@@ -1450,6 +535,7 @@
       <workItem from="1575441649505" duration="975000" />
       <workItem from="1575444309888" duration="32000" />
       <workItem from="1578408039926" duration="1457000" />
+      <workItem from="1582971328121" duration="9022000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1554891626155</created>
@@ -1511,7 +597,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272269000" />
+    <option name="totallyTimeSpent" value="281291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1524,8 +610,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31723675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.32662642" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.26340482" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1535,28 +622,29 @@
       <window_info id="Web" order="7" sideWeight="0.5021097" side_tool="true" weight="0.26340482" />
       <window_info id="Alibaba Cloud Explorer" order="8" weight="0.1529175" />
       <window_info id="JRebel" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282967" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" weight="0.42634562" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" visible="true" weight="0.23229462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1713881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4976526" visible="true" weight="0.7507082" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4976526" weight="0.21529745" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033534" side_tool="true" weight="0.76628894" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.19688386" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" weight="0.3796034" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="15" weight="0.6558074" />
       <window_info anchor="bottom" id="JRebel Console" order="16" sideWeight="0.5023474" side_tool="true" weight="0.16005665" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.12944333" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3373575" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32997987" />
@@ -1619,9 +707,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/39.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/w8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1649,30 +734,14 @@
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/20181221091753971511.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.0.RC3/spring-beans-5.1.0.RC3-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3052">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.0.RC3/spring-beans-5.1.0.RC3-sources.jar!/org/springframework/beans/factory/BeanFactory.java" />
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/musicSearchTest.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.M3/spring-boot-2.1.0.M3-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6776">
-          <caret line="321" column="54" selection-start-line="321" selection-start-column="54" selection-end-line="321" selection-end-column="54" />
-          <folding>
-            <element signature="e#10229#10230#0" expanded="true" />
-            <element signature="e#10262#10263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.M3/spring-boot-2.1.0.M3-sources.jar!/org/springframework/boot/SpringApplication.java" />
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1762,18 +831,6 @@
             <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1874,6 +931,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/MusicLinkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/static/js/tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1922,25 +992,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/service/impl/MusicLinkService.java">
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/controller/base/MyMusicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="1912">
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
           <folding>
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#3203#3219#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/ss/controller/base/MyMusicController.java">
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/二维码.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="99" column="86" selection-start-line="99" selection-start-column="86" selection-end-line="99" selection-end-column="86" />
+        <state relative-caret-position="1113">
+          <caret line="603" selection-start-line="603" selection-end-line="603" />
           <folding>
-            <element signature="e#3203#3219#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1954,17 +1024,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="28">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html">
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="600" column="5" selection-start-line="600" selection-start-column="5" selection-end-line="600" selection-end-column="5" />
+        <state relative-caret-position="184">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>

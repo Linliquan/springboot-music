@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.data:spring-data-keyvalue:2.1.0.RC2">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2.jar!/" />
+      <root url="jar://D:/MavenRepository/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2-javadoc.jar!/" />
+      <root url="jar://D:/MavenRepository/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2-sources.jar!/" />
+      <root url="jar://D:/MavenRepository/org/springframework/data/spring-data-keyvalue/2.1.0.RC2/spring-data-keyvalue-2.1.0.RC2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
