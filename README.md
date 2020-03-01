@@ -23,7 +23,8 @@
  2. 最后直接启动SsApplication类后访问http://localhost:8080/index.html 就可以进入本系统！
  
     项目演示地址：www.linliquan.top  
-    QQ交流群：1029064815
+    QQ交流群：1029064815  
+    本项目已用做2020年毕业设计项目
  
  ## 功能展示
  
