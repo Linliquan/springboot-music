@@ -91,7 +91,7 @@ public class MusicLinkController {
 	@ResponseBody
 	public WebResponse getMusicLinkList(HttpServletRequest request, HttpServletResponse response, HttpSession session,
 			@RequestParam(defaultValue = "1", required = false) Integer pageNo,
-			@RequestParam(defaultValue = "10", required = false) Integer pageSize,
+			@RequestParam(defaultValue = "30", required = false) Integer pageSize,
 			@RequestParam(defaultValue = "正常", required = false) String tbStatus,
 			@RequestParam(required = false) String keyword,
 			@RequestParam(defaultValue = "ml_id", required = false) String order,
