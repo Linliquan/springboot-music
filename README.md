@@ -20,7 +20,7 @@
  ## 问题：如何启动本系统？ 
  
  1. 将sql文件在MySQL运行生成表和数据
- 2. 最后直接启动SsApplication类后访问http://localhost:8080/index.html 就可以进入本系统！
+ 2. 最后直接启动SsApplication类后访问http://localhost:8082/index.html 就可以进入本系统！
  
     项目演示地址：www.linliquan.top  
     github地址：https://github.com/Linliquan/springboot-music  

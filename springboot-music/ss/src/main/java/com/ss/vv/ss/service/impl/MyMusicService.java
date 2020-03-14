@@ -45,8 +45,8 @@ public class MyMusicService extends AbstractService<MyMusic, MyMusic> implements
 	}
 
 	@Override
-	public List<MyMusic> getMyMusicList(int userId, int song_id) {
-		return myMusicMapper.getMyMusicList(userId, song_id);
+	public List<MyMusic> getMyMusicList(int userId) {
+		return myMusicMapper.getMyMusicList(userId);
 	}
 
 	// 删除音乐

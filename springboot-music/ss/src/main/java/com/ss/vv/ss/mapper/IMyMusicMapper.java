@@ -23,7 +23,7 @@ public interface IMyMusicMapper extends IOperations<MyMusic, MyMusic> {
 	// #是将传入的值当做字符串的形式,$是将传入的数据直接显示生成sql语句
 	// 从数据库中搜索歌曲在我的音乐列表中显示
 	@Select("select * from mymusic where user_id=${user_id}")
-	public List<MyMusic> getMyMusicList(@Param("user_id") int user_id, @Param("song_id") int song_id);
+	public List<MyMusic> getMyMusicList(@Param("user_id") int user_id);
 
 	// 删除音乐
 	@Delete("delete from mymusic where my_id=${song_id} and user_id=${user_id}")

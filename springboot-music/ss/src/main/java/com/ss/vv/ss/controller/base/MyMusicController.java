@@ -71,10 +71,10 @@ public class MyMusicController {
 			@RequestParam(required = false) String keyword,
 			@RequestParam(defaultValue = "ml_id", required = false) String order,
 			@RequestParam(defaultValue = "desc", required = false) String desc,
-			@RequestParam(required = false) String user_name, @RequestParam(required = false) String user_password,
-			@RequestParam(required = false) Integer song_id) {
+			@RequestParam(required = false) String user_name, @RequestParam(required = false) String user_password
+			) {
 
-		System.out.println("我的音乐显示列表前收藏的歌曲id" + song_id);
+//		System.out.println("我的音乐显示列表前收藏的歌曲id:" + song_id);
 		String user_Id = null;
 		try {
 			user_Id = myMusicService.getUserById(user_name, user_password);
@@ -126,7 +126,7 @@ public class MyMusicController {
 		// order, field);
 
 		try {
-			List<MyMusic> list = this.myMusicService.getMyMusicList(userId, song_id);
+			List<MyMusic> list = this.myMusicService.getMyMusicList(userId);
 
 			Map<Object, Object> map = new HashMap<Object, Object>();
 			// map.put("total", count);
