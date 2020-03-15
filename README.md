@@ -8,6 +8,7 @@
  * 使用框架Bootstrap、JQuery开发前端界面 
  * 使用MySQL存储歌曲链接和图片链接
  * 使用cookies存储用户id等
+ * 使用阿里云OSS存储歌曲的mp3文件
  
  ## 主要分为六个模块
  
