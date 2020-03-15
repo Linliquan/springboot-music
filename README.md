@@ -46,7 +46,7 @@
  
  ![image](https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/images/github_img/%E6%94%B6%E8%97%8F.png?raw=true)
  
- * 搜索
+ * 模糊搜索
  
  ![image](https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/images/github_img/%E6%90%9C%E7%B4%A2.png?raw=true)
  
