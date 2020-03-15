@@ -32,7 +32,7 @@
  
  * 主页
  
- ![image](https://github.com/Linliquan/springboot-music/blob/master/images/%E4%B8%BB%E9%A1%B5.jpg?raw=true)
+ ![image](https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/images/github_img/%E4%B8%BB%E9%A1%B5.jpg?raw=true)
  
  * 登录注册
  
