@@ -11,7 +11,7 @@
  Target Server Version : 50724
  File Encoding         : 65001
 
- Date: 15/03/2020 01:17:52
+ Date: 15/03/2020 14:13:00
 */
 
 SET NAMES utf8mb4;
@@ -29,27 +29,29 @@ CREATE TABLE `musiclink`  (
   `ml_lyricLink` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `ml_photoLink` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`ml_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 55 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of musiclink
 -- ----------------------------
-INSERT INTO `musiclink` VALUES (33, '年轮说', '杨丞琳', 'music/杨丞琳 - 年轮说.mp3', '0', 'images/list21.jpg');
-INSERT INTO `musiclink` VALUES (34, '一个人挺好', '孟颖', 'music/孟颖 - 一个人挺好.mp3', '0', 'images/list22.jpg');
-INSERT INTO `musiclink` VALUES (35, '说散就散', '袁维娅', 'music/袁维娅-说散就散.mp3', '0', 'images/list23.jpg');
-INSERT INTO `musiclink` VALUES (36, '可惜没如果', '林俊杰', 'music/林俊杰 - 可惜没如果.mp3', '0', 'images/list24.jpg');
-INSERT INTO `musiclink` VALUES (37, '你就不要想起我', '田馥甄', 'music/田馥甄 - 你就不要想起我.mp3', '0', 'images/list25.jpg');
-INSERT INTO `musiclink` VALUES (38, '遥不可及的你', '许继雯', 'music/许继雯_ - 遥不可及的你.mp3', '0', 'images/list26.jpg');
-INSERT INTO `musiclink` VALUES (39, '四块五', '艺晨', 'music/艺晨 - 四块五.mp3', '0', 'images/list27.jpg');
-INSERT INTO `musiclink` VALUES (40, '感谢你曾来过', '周思涵、Ayo97', 'music/周思涵、Ayo97 - 感谢你曾来过.mp3', '0', 'images/list28.jpg');
-INSERT INTO `musiclink` VALUES (41, '可能否', '木小雅', 'music/木小雅-可能否.mp3', '0', 'images/list29.jpg');
-INSERT INTO `musiclink` VALUES (42, '我曾', '鱼大仙儿', 'music/鱼大仙儿 - 我曾.mp3', '0', 'images/list30.jpg');
-INSERT INTO `musiclink` VALUES (43, '男孩', '梁博', 'music/梁博 - 男孩 (Live).mp3', '0', 'images/list31.jpg');
-INSERT INTO `musiclink` VALUES (44, '年少有为', '李荣浩', 'music/李荣浩 - 年少有为.mp3', '0', 'images/list32.jpg');
-INSERT INTO `musiclink` VALUES (45, '那个女孩', '张泽熙', 'music/张泽熙 - 那个女孩.mp3', '0', 'images/list33.jpg');
-INSERT INTO `musiclink` VALUES (46, '那女孩对我说 (正式版)', '小阿七', 'music/小阿七 - 那女孩对我说 (正式版).mp3', '0', 'images/list34.jpg');
-INSERT INTO `musiclink` VALUES (47, '清新的小女孩 (缅甸语原版)', '九姨、九姨夫', 'music/九姨、九姨夫 - 清新的小女孩 (缅甸语原版).mp3', '0', 'images/list35.jpg');
-INSERT INTO `musiclink` VALUES (48, '贝加尔湖畔', '李健', 'music/李健 贝加尔湖畔.mp3', '0', 'images/list36.jpg');
+INSERT INTO `musiclink` VALUES (31, '侧脸', '于果', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E4%BA%8E%E6%9E%9C%20-%20%E4%BE%A7%E8%84%B8.mp3', '0', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list10.jpg');
+INSERT INTO `musiclink` VALUES (32, 'Jar Of Love', '曲婉婷', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9B%B2%E5%A9%89%E5%A9%B7%20-%20Jar%20Of%20Love.mp3', '0', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list11.jpg');
+INSERT INTO `musiclink` VALUES (33, '年轮说', '杨丞琳', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%A8%E4%B8%9E%E7%90%B3%20-%20%E5%B9%B4%E8%BD%AE%E8%AF%B4.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list21.jpg');
+INSERT INTO `musiclink` VALUES (34, '一个人挺好', '孟颖', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%AD%9F%E9%A2%96%20-%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E6%8C%BA%E5%A5%BD.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list22.jpg');
+INSERT INTO `musiclink` VALUES (35, '说散就散', '袁维娅', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%A2%81%E7%BB%B4%E5%A8%85-%E8%AF%B4%E6%95%A3%E5%B0%B1%E6%95%A3.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list23.jpg');
+INSERT INTO `musiclink` VALUES (36, '可惜没如果', '林俊杰', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9E%97%E4%BF%8A%E6%9D%B0%20-%20%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list24.jpg');
+INSERT INTO `musiclink` VALUES (37, '你就不要想起我', '田馥甄', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E7%94%B0%E9%A6%A5%E7%94%84%20-%20%E4%BD%A0%E5%B0%B1%E4%B8%8D%E8%A6%81%E6%83%B3%E8%B5%B7%E6%88%91.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list25.jpg');
+INSERT INTO `musiclink` VALUES (38, '遥不可及的你', '许继雯', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%AE%B8%E7%BB%A7%E9%9B%AF_%20-%20%E9%81%A5%E4%B8%8D%E5%8F%AF%E5%8F%8A%E7%9A%84%E4%BD%A0.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list26.jpg');
+INSERT INTO `musiclink` VALUES (39, '四块五', '艺晨', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%89%BA%E6%99%A8%20-%20%E5%9B%9B%E5%9D%97%E4%BA%94.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list27.jpg');
+INSERT INTO `musiclink` VALUES (40, '感谢你曾来过', '周思涵、Ayo97', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%91%A8%E6%80%9D%E6%B6%B5%E3%80%81Ayo97%20-%20%E6%84%9F%E8%B0%A2%E4%BD%A0%E6%9B%BE%E6%9D%A5%E8%BF%87.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list28.jpg');
+INSERT INTO `musiclink` VALUES (41, '可能否', '木小雅', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9C%A8%E5%B0%8F%E9%9B%85-%E5%8F%AF%E8%83%BD%E5%90%A6.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list29.jpg');
+INSERT INTO `musiclink` VALUES (42, '我曾', '鱼大仙儿', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E9%B1%BC%E5%A4%A7%E4%BB%99%E5%84%BF%20-%20%E6%88%91%E6%9B%BE.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list30.jpg');
+INSERT INTO `musiclink` VALUES (43, '男孩', '梁博', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%A2%81%E5%8D%9A%20-%20%E7%94%B7%E5%AD%A9%20%28Live%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list31.jpg');
+INSERT INTO `musiclink` VALUES (44, '年少有为', '李荣浩', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%8E%E8%8D%A3%E6%B5%A9%20-%20%E5%B9%B4%E5%B0%91%E6%9C%89%E4%B8%BA.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list32.jpg');
+INSERT INTO `musiclink` VALUES (45, '那个女孩', '张泽熙', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%BC%A0%E6%B3%BD%E7%86%99%20-%20%E9%82%A3%E4%B8%AA%E5%A5%B3%E5%AD%A9.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list33.jpg');
+INSERT INTO `musiclink` VALUES (46, '那女孩对我说 (正式版)', '小阿七', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%B0%8F%E9%98%BF%E4%B8%83%20-%20%E9%82%A3%E5%A5%B3%E5%AD%A9%E5%AF%B9%E6%88%91%E8%AF%B4%20%28%E6%AD%A3%E5%BC%8F%E7%89%88%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list34.jpg');
+INSERT INTO `musiclink` VALUES (47, '清新的小女孩 (缅甸语原版)', '九姨、九姨夫', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E4%B9%9D%E5%A7%A8%E3%80%81%E4%B9%9D%E5%A7%A8%E5%A4%AB%20-%20%E6%B8%85%E6%96%B0%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9%20%28%E7%BC%85%E7%94%B8%E8%AF%AD%E5%8E%9F%E7%89%88%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list35.jpg');
+INSERT INTO `musiclink` VALUES (48, '贝加尔湖畔', '李健', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%8E%E5%81%A5%20%E8%B4%9D%E5%8A%A0%E5%B0%94%E6%B9%96%E7%95%94.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list36.jpg');
 INSERT INTO `musiclink` VALUES (49, '方圆几里', '薛之谦', 'music/薛之谦 - 方圆几里.mp3', '0', 'images/list37.jpg');
 INSERT INTO `musiclink` VALUES (50, '浪子回头', '茄子蛋', 'music/茄子蛋 - 浪子回头.mp3', '0', 'images/list38.jpg');
 INSERT INTO `musiclink` VALUES (51, '桥边姑娘', '海伦', 'music/海伦 - 桥边姑娘.mp3', '0', 'images/list39.jpg');
@@ -68,7 +70,7 @@ CREATE TABLE `mymusic`  (
   `my_photoLink` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `user_id` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`my_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 430 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 457 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of mymusic
@@ -201,6 +203,32 @@ INSERT INTO `mymusic` VALUES (426, '方圆几里', '薛之谦', 'music/薛之谦
 INSERT INTO `mymusic` VALUES (427, '世界这么大还是遇见你', '程响', 'music/程响 - 世界这么大还是遇见你.mp3', '0', 'images/list40.jpg', 206);
 INSERT INTO `mymusic` VALUES (428, '那女孩对我说 (正式版)', '小阿七', 'music/小阿七 - 那女孩对我说 (正式版).mp3', '0', 'images/list34.jpg', 206);
 INSERT INTO `mymusic` VALUES (429, '那个女孩', '张泽熙', 'music/张泽熙 - 那个女孩.mp3', '0', 'images/list33.jpg', 206);
+INSERT INTO `mymusic` VALUES (430, '说散就散', '袁维娅', 'music/袁维娅-说散就散.mp3', '0', 'images/list23.jpg', 206);
+INSERT INTO `mymusic` VALUES (431, '世界这么大还是遇见你', '程响', 'music/程响 - 世界这么大还是遇见你.mp3', '0', 'images/list40.jpg', 207);
+INSERT INTO `mymusic` VALUES (432, '贝加尔湖畔', '李健', 'music/李健 贝加尔湖畔.mp3', '0', 'images/list36.jpg', 207);
+INSERT INTO `mymusic` VALUES (433, '那个女孩', '张泽熙', 'music/张泽熙 - 那个女孩.mp3', '0', 'images/list33.jpg', 207);
+INSERT INTO `mymusic` VALUES (434, '浪子回头', '茄子蛋', 'music/茄子蛋 - 浪子回头.mp3', '0', 'images/list38.jpg', 207);
+INSERT INTO `mymusic` VALUES (436, '桥边姑娘', '海伦', 'music/海伦 - 桥边姑娘.mp3', '0', 'images/list39.jpg', 208);
+INSERT INTO `mymusic` VALUES (437, '浪子回头', '茄子蛋', 'music/茄子蛋 - 浪子回头.mp3', '0', 'images/list38.jpg', 208);
+INSERT INTO `mymusic` VALUES (438, '方圆几里', '薛之谦', 'music/薛之谦 - 方圆几里.mp3', '0', 'images/list37.jpg', 208);
+INSERT INTO `mymusic` VALUES (439, '贝加尔湖畔', '李健', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%8E%E5%81%A5%20%E8%B4%9D%E5%8A%A0%E5%B0%94%E6%B9%96%E7%95%94.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list36.jpg', 208);
+INSERT INTO `mymusic` VALUES (440, '清新的小女孩 (缅甸语原版)', '九姨、九姨夫', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E4%B9%9D%E5%A7%A8%E3%80%81%E4%B9%9D%E5%A7%A8%E5%A4%AB%20-%20%E6%B8%85%E6%96%B0%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9%20%28%E7%BC%85%E7%94%B8%E8%AF%AD%E5%8E%9F%E7%89%88%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list35.jpg', 208);
+INSERT INTO `mymusic` VALUES (441, '那女孩对我说 (正式版)', '小阿七', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%B0%8F%E9%98%BF%E4%B8%83%20-%20%E9%82%A3%E5%A5%B3%E5%AD%A9%E5%AF%B9%E6%88%91%E8%AF%B4%20%28%E6%AD%A3%E5%BC%8F%E7%89%88%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list34.jpg', 208);
+INSERT INTO `mymusic` VALUES (442, '那个女孩', '张泽熙', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%BC%A0%E6%B3%BD%E7%86%99%20-%20%E9%82%A3%E4%B8%AA%E5%A5%B3%E5%AD%A9.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list33.jpg', 208);
+INSERT INTO `mymusic` VALUES (443, '年少有为', '李荣浩', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%8E%E8%8D%A3%E6%B5%A9%20-%20%E5%B9%B4%E5%B0%91%E6%9C%89%E4%B8%BA.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list32.jpg', 208);
+INSERT INTO `mymusic` VALUES (444, '男孩', '梁博', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%A2%81%E5%8D%9A%20-%20%E7%94%B7%E5%AD%A9%20%28Live%29.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list31.jpg', 208);
+INSERT INTO `mymusic` VALUES (445, '我曾', '鱼大仙儿', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E9%B1%BC%E5%A4%A7%E4%BB%99%E5%84%BF%20-%20%E6%88%91%E6%9B%BE.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list30.jpg', 208);
+INSERT INTO `mymusic` VALUES (446, '可能否', '木小雅', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9C%A8%E5%B0%8F%E9%9B%85-%E5%8F%AF%E8%83%BD%E5%90%A6.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list29.jpg', 208);
+INSERT INTO `mymusic` VALUES (447, '感谢你曾来过', '周思涵、Ayo97', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%91%A8%E6%80%9D%E6%B6%B5%E3%80%81Ayo97%20-%20%E6%84%9F%E8%B0%A2%E4%BD%A0%E6%9B%BE%E6%9D%A5%E8%BF%87.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list28.jpg', 208);
+INSERT INTO `mymusic` VALUES (448, '四块五', '艺晨', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%89%BA%E6%99%A8%20-%20%E5%9B%9B%E5%9D%97%E4%BA%94.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list27.jpg', 208);
+INSERT INTO `mymusic` VALUES (449, '遥不可及的你', '许继雯', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%AE%B8%E7%BB%A7%E9%9B%AF_%20-%20%E9%81%A5%E4%B8%8D%E5%8F%AF%E5%8F%8A%E7%9A%84%E4%BD%A0.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list26.jpg', 208);
+INSERT INTO `mymusic` VALUES (450, '你就不要想起我', '田馥甄', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E7%94%B0%E9%A6%A5%E7%94%84%20-%20%E4%BD%A0%E5%B0%B1%E4%B8%8D%E8%A6%81%E6%83%B3%E8%B5%B7%E6%88%91.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list25.jpg', 208);
+INSERT INTO `mymusic` VALUES (451, '可惜没如果', '林俊杰', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9E%97%E4%BF%8A%E6%9D%B0%20-%20%E5%8F%AF%E6%83%9C%E6%B2%A1%E5%A6%82%E6%9E%9C.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list24.jpg', 208);
+INSERT INTO `mymusic` VALUES (452, '说散就散', '袁维娅', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E8%A2%81%E7%BB%B4%E5%A8%85-%E8%AF%B4%E6%95%A3%E5%B0%B1%E6%95%A3.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list23.jpg', 208);
+INSERT INTO `mymusic` VALUES (453, '一个人挺好', '孟颖', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E5%AD%9F%E9%A2%96%20-%20%E4%B8%80%E4%B8%AA%E4%BA%BA%E6%8C%BA%E5%A5%BD.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list22.jpg', 208);
+INSERT INTO `mymusic` VALUES (454, '年轮说', '杨丞琳', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9D%A8%E4%B8%9E%E7%90%B3%20-%20%E5%B9%B4%E8%BD%AE%E8%AF%B4.mp3', '0', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list21.jpg', 208);
+INSERT INTO `mymusic` VALUES (455, 'Jar Of Love', '曲婉婷', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E6%9B%B2%E5%A9%89%E5%A9%B7%20-%20Jar%20Of%20Love.mp3', '0', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list11.jpg', 208);
+INSERT INTO `mymusic` VALUES (456, '侧脸', '于果', 'https://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/music/%E4%BA%8E%E6%9E%9C%20-%20%E4%BE%A7%E8%84%B8.mp3', '0', '\r\nhttps://liquan-springboot-music.oss-cn-shanghai.aliyuncs.com/song_img/list10.jpg', 208);
 
 -- ----------------------------
 -- Table structure for test
@@ -242,7 +270,7 @@ CREATE TABLE `user`  (
   `create_time` timestamp(0) NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`) USING BTREE,
   INDEX `index_name`(`user_name`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 207 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 209 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of user
@@ -431,5 +459,7 @@ INSERT INTO `user` VALUES (203, 'h66', '333', '2020-03-15 01:07:43');
 INSERT INTO `user` VALUES (204, '小李', '101', '2020-03-15 01:07:43');
 INSERT INTO `user` VALUES (205, 'j77', '777', '2020-03-15 01:07:43');
 INSERT INTO `user` VALUES (206, 'y88', '888', '2020-03-15 01:14:47');
+INSERT INTO `user` VALUES (207, '隔壁老王', '1314', '2020-03-15 11:03:54');
+INSERT INTO `user` VALUES (208, 'h345', '123456', '2020-03-15 13:38:45');
 
 SET FOREIGN_KEY_CHECKS = 1;

@@ -4,6 +4,22 @@
     <list default="true" id="9618b01d-b170-4037-8870-c909f061329d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/九姨、九姨夫 - 清新的小女孩 (缅甸语原版).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/周思涵、Ayo97 - 感谢你曾来过.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/孟颖 - 一个人挺好.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/小阿七 - 那女孩对我说 (正式版).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/张泽熙 - 那个女孩.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/木小雅-可能否.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/李健 贝加尔湖畔.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/李荣浩 - 年少有为.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/杨丞琳 - 年轮说.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/林俊杰 - 可惜没如果.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/梁博 - 男孩 (Live).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/田馥甄 - 你就不要想起我.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/艺晨 - 四块五.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/袁维娅-说散就散.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/许继雯_ - 遥不可及的你.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/music/鱼大仙儿 - 我曾.mp3" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot-music/ss/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +47,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="202" column="22" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+            <state relative-caret-position="84">
+              <caret line="392" column="27" selection-start-line="392" selection-start-column="27" selection-end-line="392" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,16 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/图片/z1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>localhost:8080</find>
       <find>http://localhost:8080</find>
       <find>musicLink</find>
       <find>myb</find>
@@ -90,6 +114,7 @@
       <find>Current page is 1</find>
       <find>pagination</find>
       <find>z1</find>
+      <find>落</find>
     </findStrings>
     <replaceStrings>
       <replace>index</replace>
@@ -264,39 +289,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="图片" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-music" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-music" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +306,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584249206736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584252574477" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -514,7 +506,7 @@
       <workItem from="1578408039926" duration="1457000" />
       <workItem from="1582971328121" duration="10258000" />
       <workItem from="1582983493184" duration="11000" />
-      <workItem from="1584177135394" duration="28254000" />
+      <workItem from="1584177135394" duration="31099000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1554891626155</created>
@@ -579,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584206433007</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更改特效排行榜区域的歌曲">
+      <created>1584252553574</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584252553574</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310792000" />
+    <option name="totallyTimeSpent" value="313637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,9 +595,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.12877263" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.28772637" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.26340482" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -610,12 +608,12 @@
       <window_info id="JRebel" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.71529746" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" weight="0.08923513" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966466" weight="0.6402266" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4976526" weight="0.7492918" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4976526" visible="true" weight="0.1855524" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033534" side_tool="true" weight="0.76628894" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -630,7 +628,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1750503" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1750503" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32997987" />
@@ -744,7 +742,8 @@
     <MESSAGE value="解决了song_id报错的问题，对代码进行了优化，同时也修改了主页面" />
     <MESSAGE value="Update" />
     <MESSAGE value="更新数据库，user表新增create_time列" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新数据库，user表新增create_time列" />
+    <MESSAGE value="更改特效排行榜区域的歌曲" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改特效排行榜区域的歌曲" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/common/IOperations.java">
@@ -1050,18 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/图片/z2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1098,10 +1085,22 @@
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/images/图片/z1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/java/com/ss/vv/SsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-music/ss/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="202" column="22" selection-start-line="202" selection-start-column="22" selection-end-line="202" selection-end-column="22" />
+        <state relative-caret-position="84">
+          <caret line="392" column="27" selection-start-line="392" selection-start-column="27" selection-end-line="392" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
