@@ -25,6 +25,7 @@
  
     项目演示地址：www.linliquan.top  
     github地址：https://github.com/Linliquan/springboot-music  
+    如下载速度比较慢，请移至码云下载，gitee地址：https://gitee.com/linliquan/springboot-music  
     QQ交流群：1029064815  
     本项目已用做2020年毕业设计项目
  
