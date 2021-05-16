@@ -28,7 +28,7 @@
     如下载速度比较慢，请移至码云下载，gitee地址：https://gitee.com/linliquan/springboot-music  
     QQ交流群：1029064815  
     
- ## 升级版（springboot-music-plus）：
+ ## 升级版（springboot-music-plus）
 
  * 对原来的springboot-music项目使用springboot重新进行重构，代码更加规范和易懂
  * 加入一线互联网公司各种主流技术，力争和企业接轨
