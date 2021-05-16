@@ -27,6 +27,20 @@
     github地址：https://github.com/Linliquan/springboot-music  
     如下载速度比较慢，请移至码云下载，gitee地址：https://gitee.com/linliquan/springboot-music  
     QQ交流群：1029064815  
+    
+ ## 升级版（springboot-music-plus）：
+
+ * 对原来的springboot-music项目使用springboot重新进行重构，代码更加规范和易懂
+ * 加入一线互联网公司各种主流技术，力争和企业接轨
+ * 兼容原springboot-music项目所有功能
+ * 修复了原项目榜单分页的bug以及不能根据旧密码修改用户密码的bug
+ * 使用mybatis-plus、lombok、fastJson、swagger
+ * 使用mybatis-generator自动生成xml、entity、mapper层代码
+ * mybatis和mybatis-plus混合使用，简单sql用mybatis-plus，复杂sql也可以写自定义sql
+ * 使用PageHelper分页工具、通用工具类、response类、枚举、事务等等
+ * 更多新功能和技术加入... 敬请期待  
+
+   升级版github地址：https://github.com/Linliquan/springboot-music-plus
  
  ## 功能展示
  
